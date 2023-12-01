@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connector_Molex)(type KiCad)(uri C:/Users/diego.ugaz/Documents/KiCad/Footprints_AOML/kicad-footprints-master/Connector_Molex.pretty)(options "")(descr ""))
+)

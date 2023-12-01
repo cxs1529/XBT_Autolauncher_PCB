@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "AOML_AB_2.2-rescue")(type "Legacy")(uri "${KIPRJMOD}/AOML_AB_2.2-rescue.lib")(options "")(descr ""))
+)
