@@ -11,4 +11,5 @@
   (lib (name "Latch_CD4043BDR")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/CD4043BDR/KiCad/CD4043BDR.kicad_sym")(options "")(descr ""))
   (lib (name "SSR_TLP592A")(type "Legacy")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/SSR_TLP592A_F_/KiCAD/2023-12-01_22-54-19.lib")(options "")(descr ""))
   (lib (name "SSR_TLP170AM")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TLP170AM_TPL_E/KiCADv6/2023-12-01_23-15-12.kicad_sym")(options "")(descr ""))
+  (lib (name "Resistor_network-10k")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/YC158TJR_0710KL/KiCADv6/2023-12-04_20-17-54.kicad_sym")(options "")(descr ""))
 )

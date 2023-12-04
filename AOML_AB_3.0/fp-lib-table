@@ -9,4 +9,5 @@
   (lib (name "Oscillator_8mhz_ECS-80-18-4X-CKM")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LIB_ECS-80-18-4X-CKM/ECS-80-18-4X-CKM/KiCad")(options "")(descr ""))
   (lib (name "Latch_CD4043BDR")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/CD4043BDR/KiCad")(options "")(descr ""))
   (lib (name "SSR_TLP170AM")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TLP170AM_TPL_E/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Resistor_network-10k")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/YC158TJR_0710KL/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
