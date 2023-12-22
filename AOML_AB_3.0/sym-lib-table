@@ -40,4 +40,6 @@
   (lib (name "Molex_3x1_0436500315")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/436500315/KiCADv6/2023-12-21_22-26-00.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_TE_x6_216548-1")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/216548_1/KiCADv6/2023-12-21_22-32-14.kicad_sym")(options "")(descr ""))
   (lib (name "Potentiometer_10k_smt")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TC33X_2_103E/KiCADv6/2023-12-21_23-05-03.kicad_sym")(options "")(descr ""))
+  (lib (name "Dip_switch_DS01C-254-L-03BE")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/DS01C_254_L_03BE/DS01C-254-L-03BE.kicad_sym")(options "")(descr "")(hidden))
+  (lib (name "Precision_resistor_5k")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/Y14535K00000V9L/KiCADv6/2023-12-22_16-41-03.kicad_sym")(options "")(descr ""))
 )
