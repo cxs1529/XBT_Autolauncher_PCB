@@ -46,4 +46,5 @@
   (lib (name "Relay_driver_ULN2003ADR")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/ULN2003ADR/KiCADv6/2023-11-24_18-31-29.kicad_sym")(options "")(descr ""))
   (lib (name "Resistor_network-330")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/EXB_E10C331J/EXB-E10C331J.kicad_sym")(options "")(descr ""))
   (lib (name "Capacitor_1000uF_can-smt")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/EEV_FK1E102Q/KiCADv6/2023-12-26_16-34-59.kicad_sym")(options "")(descr ""))
+  (lib (name "Resistor_network_x4_-330")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/YC164_JR_07330RL/YC164-JR-07330RL.kicad_sym")(options "")(descr ""))
 )
