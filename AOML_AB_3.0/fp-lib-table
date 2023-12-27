@@ -42,4 +42,6 @@
   (lib (name "Precision_resistor_5k")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/Y14535K00000V9L/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Header_screw_5x1_TB003-500-P05BE")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TB003_500_P05BE")(options "")(descr ""))
   (lib (name "Relay_driver_ULN2003ADR")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/ULN2003ADR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Resistor_network-330")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/EXB_E10C331J")(options "")(descr ""))
+  (lib (name "Capacitor_1000uF_can-smt")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/EEV_FK1E102Q/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

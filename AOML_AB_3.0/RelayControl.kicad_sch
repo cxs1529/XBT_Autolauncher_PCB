@@ -1435,6 +1435,10 @@
   (no_connect (at 187.96 86.36) (uuid fb613559-aae7-4f87-85c7-d9b02165b2a6))
   (no_connect (at 133.35 242.57) (uuid fe5ff7e5-573f-4744-8b13-a1f9b9d3c5b6))
 
+  (wire (pts (xy 232.41 73.66) (xy 233.68 73.66))
+    (stroke (width 0) (type default))
+    (uuid 0055d4f0-5d5d-46d3-bf53-4c24b0bf6449)
+  )
   (wire (pts (xy 187.96 201.93) (xy 198.12 201.93))
     (stroke (width 0) (type default))
     (uuid 01916032-a3c0-4985-b8b5-64f625847f5c)
@@ -1458,6 +1462,10 @@
   (wire (pts (xy 358.14 226.06) (xy 358.14 215.9))
     (stroke (width 0) (type default))
     (uuid 099cc74c-2fb6-4eeb-ad48-3f2b40c8e9e8)
+  )
+  (wire (pts (xy 232.41 76.2) (xy 233.68 76.2))
+    (stroke (width 0) (type default))
+    (uuid 0bb16063-b751-47d2-8597-652d18a91a0e)
   )
   (wire (pts (xy 396.24 59.69) (xy 396.24 81.28))
     (stroke (width 0) (type default))
@@ -2126,6 +2134,10 @@
   (wire (pts (xy 193.04 88.9) (xy 193.04 54.61))
     (stroke (width 0) (type default))
     (uuid b70821ad-1f27-4acb-8ade-6417b8304283)
+  )
+  (wire (pts (xy 232.41 71.12) (xy 233.68 71.12))
+    (stroke (width 0) (type default))
+    (uuid b7c4d535-ac6a-4169-8445-523cb0b405cd)
   )
   (wire (pts (xy 342.9 86.36) (xy 358.14 86.36))
     (stroke (width 0) (type default))
@@ -2986,7 +2998,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 009e34ff-98a7-41e9-b7f2-a60bb09ea900)
-    (property "Reference" "U11" (at 365.76 139.7 0)
+    (property "Reference" "U14" (at 365.76 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 142.24 0)
@@ -3008,7 +3020,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U11") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -3017,7 +3029,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c9b3dd5-9622-460d-81ab-613f9d658323)
-    (property "Reference" "#PWR066" (at 102.87 243.84 0)
+    (property "Reference" "#PWR060" (at 102.87 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 234.95 0)
@@ -3033,7 +3045,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -3042,7 +3054,7 @@
   (symbol (lib_id "power:GND") (at 292.1 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10b4f4ee-4d73-4cce-945b-45a5d65fb564)
-    (property "Reference" "#PWR027" (at 292.1 208.28 0)
+    (property "Reference" "#PWR084" (at 292.1 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 207.01 0)
@@ -3058,7 +3070,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -3129,7 +3141,7 @@
           (reference "U5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U6") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -3138,7 +3150,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1afca079-602b-468c-bdf9-83f9ae480bad)
-    (property "Reference" "U9" (at 365.76 96.52 0)
+    (property "Reference" "U12" (at 365.76 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 99.06 0)
@@ -3160,28 +3172,28 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U9") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 228.6 73.66 180) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 227.33 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b8ebc7b-d886-4e3e-beef-7292f52b986d)
-    (property "Reference" "J5" (at 227.33 68.58 90)
+    (property "Reference" "J5" (at 226.06 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Conn_01x03" (at 229.87 68.58 90)
+    (property "Value" "Conn_01x03" (at 228.6 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 228.6 73.66 0)
+    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 227.33 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 228.6 73.66 0)
+    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 227.33 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 228.6 73.66 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 227.33 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fd63149c-08f6-42d4-b5e8-976f09b84a6d))
@@ -3193,7 +3205,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -3202,7 +3214,7 @@
   (symbol (lib_id "power:GND") (at 81.28 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e1fc2a5-6ab6-4465-b2c0-04154d5df67b)
-    (property "Reference" "#PWR024" (at 81.28 195.58 0)
+    (property "Reference" "#PWR053" (at 81.28 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 194.31 0)
@@ -3218,7 +3230,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -3279,7 +3291,7 @@
   (symbol (lib_id "power:+3.3V") (at 327.66 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fcb8687-c6da-4896-96b7-828969db8413)
-    (property "Reference" "#PWR028" (at 327.66 187.96 0)
+    (property "Reference" "#PWR086" (at 327.66 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 327.66 179.07 0)
@@ -3295,7 +3307,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -3304,7 +3316,7 @@
   (symbol (lib_id "power:+5V") (at 58.42 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2066319d-1d3f-4688-b95b-f237dc998508)
-    (property "Reference" "#PWR035" (at 58.42 124.46 0)
+    (property "Reference" "#PWR052" (at 58.42 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 58.42 115.57 0)
@@ -3320,7 +3332,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -3381,7 +3393,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24ef97e5-8143-40db-9adf-ceb3f027efa1)
-    (property "Reference" "#PWR037" (at 133.35 82.55 0)
+    (property "Reference" "#PWR061" (at 133.35 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 73.66 0)
@@ -3397,7 +3409,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -3412,7 +3424,7 @@
     (property "Value" "CD4043BDR" (at 309.88 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X175-16N" (at 321.31 192.71 0)
+    (property "Footprint" "Latch_CD4043BDR:SOIC127P600X175-16N" (at 321.31 192.71 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" (at 321.31 292.71 0)
@@ -3449,7 +3461,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28e14b79-f5b7-48f4-a27a-9f315ee5e68e)
-    (property "Reference" "U10" (at 365.76 118.11 0)
+    (property "Reference" "U13" (at 365.76 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 120.65 0)
@@ -3471,7 +3483,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U10") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -3480,7 +3492,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 203.2 187.96 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ebf46c5-26e8-452f-b3b1-99203a2ef41f)
-    (property "Reference" "JP3" (at 200.66 187.96 90)
+    (property "Reference" "JP8" (at 200.66 187.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 200.66 186.69 90)
@@ -3498,7 +3510,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "JP3") (unit 1)
+          (reference "JP8") (unit 1)
         )
       )
     )
@@ -3507,7 +3519,7 @@
   (symbol (lib_id "power:GND") (at 358.14 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3018efaa-e9f8-486a-96a1-6576ceeb7d1d)
-    (property "Reference" "#PWR017" (at 358.14 242.57 0)
+    (property "Reference" "#PWR087" (at 358.14 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.14 241.3 0)
@@ -3523,7 +3535,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -3538,7 +3550,7 @@
     (property "Value" "CD4043BDR" (at 309.88 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X175-16N" (at 321.31 279.07 0)
+    (property "Footprint" "Latch_CD4043BDR:SOIC127P600X175-16N" (at 321.31 279.07 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" (at 321.31 379.07 0)
@@ -3575,7 +3587,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31196f9d-7b78-45b6-aae5-32bdc400ba0f)
-    (property "Reference" "#PWR038" (at 157.48 87.63 0)
+    (property "Reference" "#PWR070" (at 157.48 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 78.74 0)
@@ -3591,7 +3603,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -3600,7 +3612,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 86.36 189.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3269574e-6dcd-4c58-899c-4d8b2b31a009)
-    (property "Reference" "JP1" (at 88.9 189.23 90)
+    (property "Reference" "JP6" (at 88.9 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 88.9 187.96 90)
@@ -3618,7 +3630,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "JP1") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -3703,7 +3715,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -3736,7 +3748,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J12") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -3745,7 +3757,7 @@
   (symbol (lib_id "power:GND") (at 151.13 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39a4aa42-d111-4fc0-b576-e63e7ee7ce6f)
-    (property "Reference" "#PWR022" (at 151.13 259.08 0)
+    (property "Reference" "#PWR069" (at 151.13 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 257.81 0)
@@ -3761,7 +3773,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -3770,7 +3782,7 @@
   (symbol (lib_id "Device:R_Small") (at 97.79 256.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d2d943b-0679-4970-976b-5bf59232f027)
-    (property "Reference" "R2" (at 100.33 255.27 0)
+    (property "Reference" "R10" (at 100.33 255.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k" (at 100.33 257.81 0)
@@ -3790,7 +3802,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "R2") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3799,7 +3811,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3df1637d-b30b-4491-95f2-e5d22e7568f8)
-    (property "Reference" "#PWR064" (at 102.87 217.17 0)
+    (property "Reference" "#PWR059" (at 102.87 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 208.28 0)
@@ -3815,7 +3827,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3824,7 +3836,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e652624-f541-40bd-83a8-9c03d8d9fd2f)
-    (property "Reference" "U12" (at 365.76 161.29 0)
+    (property "Reference" "U15" (at 365.76 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 163.83 0)
@@ -3846,7 +3858,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U12") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -3861,13 +3873,13 @@
     (property "Value" "330" (at 360.68 232.156 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Array_SIP9" (at 335.915 231.14 90)
+    (property "Footprint" "Resistor_network-330:RESCAV80P400X210X65-10N" (at 335.915 231.14 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-yc_tc_group_51_rohs_l.pdf" (at 347.98 231.14 0)
+    (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBE10C331J" (at 347.98 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/yageo/YC158TJR-0710KL/5951826" (at 347.98 231.14 0)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EXB-E10C331J/282888" (at 347.98 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 02bf9df5-51af-4950-8a9d-e4203387c17c))
@@ -3894,7 +3906,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 475652ba-d3a9-4f79-bee9-fdeefc8e2a5a)
-    (property "Reference" "U8" (at 365.76 53.34 0)
+    (property "Reference" "U10" (at 365.76 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 55.88 0)
@@ -3916,7 +3928,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U8") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -3925,7 +3937,7 @@
   (symbol (lib_id "power:+3.3V") (at 327.66 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51bd2679-81de-4ad8-ad16-cd70d06c1a66)
-    (property "Reference" "#PWR025" (at 327.66 101.6 0)
+    (property "Reference" "#PWR085" (at 327.66 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 327.66 92.71 0)
@@ -3941,7 +3953,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -3950,7 +3962,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 586f1404-a9a3-44a2-8b14-a5346d7638f7)
-    (property "Reference" "#PWR061" (at 187.96 195.58 0)
+    (property "Reference" "#PWR079" (at 187.96 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 186.69 0)
@@ -3966,7 +3978,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -3994,7 +4006,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -4003,7 +4015,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65cad219-7545-495c-8bea-1f4777a2fb03)
-    (property "Reference" "#PWR056" (at 102.87 162.56 0)
+    (property "Reference" "#PWR057" (at 102.87 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 153.67 0)
@@ -4019,7 +4031,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -4028,7 +4040,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67418e53-d0ec-493d-81d8-8cf1ca3841cc)
-    (property "Reference" "#PWR036" (at 102.87 82.55 0)
+    (property "Reference" "#PWR054" (at 102.87 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 73.66 0)
@@ -4044,7 +4056,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -4072,7 +4084,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -4081,7 +4093,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69618428-3979-43e5-9c56-45e9e6df2fbd)
-    (property "Reference" "#PWR059" (at 133.35 190.5 0)
+    (property "Reference" "#PWR065" (at 133.35 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 181.61 0)
@@ -4097,7 +4109,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -4106,7 +4118,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d53cf84-2859-43fd-8316-f0d21f369ca9)
-    (property "Reference" "U7" (at 365.76 74.93 0)
+    (property "Reference" "U11" (at 365.76 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 77.47 0)
@@ -4128,7 +4140,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U7") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -4161,7 +4173,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J8") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -4170,7 +4182,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e7b3e1f-4af4-4def-96af-1eb6bb15e9be)
-    (property "Reference" "#PWR042" (at 102.87 109.22 0)
+    (property "Reference" "#PWR055" (at 102.87 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 100.33 0)
@@ -4186,7 +4198,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -4247,7 +4259,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 738e6a51-ffed-435a-ae86-f44de0f707d0)
-    (property "Reference" "#PWR051" (at 133.35 135.89 0)
+    (property "Reference" "#PWR063" (at 133.35 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 127 0)
@@ -4263,7 +4275,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -4321,7 +4333,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J7") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -4330,7 +4342,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 795d7f12-a60f-452e-9699-b4f6b2ac1d2a)
-    (property "Reference" "U14" (at 365.76 204.47 0)
+    (property "Reference" "U17" (at 365.76 204.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 207.01 0)
@@ -4352,7 +4364,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U14") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -4361,7 +4373,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 798fbe9b-1082-460b-8630-e6b636efe0b5)
-    (property "Reference" "#PWR040" (at 157.48 114.3 0)
+    (property "Reference" "#PWR071" (at 157.48 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 105.41 0)
@@ -4377,7 +4389,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -4386,7 +4398,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 841c5397-88e4-4e20-942a-b57451cc907b)
-    (property "Reference" "#PWR041" (at 187.96 114.3 0)
+    (property "Reference" "#PWR076" (at 187.96 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 105.41 0)
@@ -4402,7 +4414,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -4411,7 +4423,7 @@
   (symbol (lib_id "power:GND") (at 208.28 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d83b560-3fea-4953-a3ae-121c3f895913)
-    (property "Reference" "#PWR019" (at 208.28 194.31 0)
+    (property "Reference" "#PWR080" (at 208.28 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 193.04 0)
@@ -4427,7 +4439,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -4436,7 +4448,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 949d47d4-42f9-4849-83cb-20451884e21e)
-    (property "Reference" "#PWR044" (at 102.87 135.89 0)
+    (property "Reference" "#PWR056" (at 102.87 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 127 0)
@@ -4452,7 +4464,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -4461,7 +4473,7 @@
   (symbol (lib_id "Relay_SolidState:TLP175A") (at 365.76 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 986d883e-ef8b-49a8-8f7a-546f5b779f34)
-    (property "Reference" "U13" (at 365.76 182.88 0)
+    (property "Reference" "U16" (at 365.76 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLP170AM" (at 365.76 185.42 0)
@@ -4483,7 +4495,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U13") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -4492,7 +4504,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99c7cdf1-ef82-454c-8dd7-5254df18d715)
-    (property "Reference" "#PWR052" (at 157.48 140.97 0)
+    (property "Reference" "#PWR072" (at 157.48 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 132.08 0)
@@ -4508,7 +4520,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -4621,7 +4633,7 @@
   (symbol (lib_id "power:+3.3V") (at 281.94 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a403cfa4-5b13-4237-9374-e9af5bf51a51)
-    (property "Reference" "#PWR023" (at 281.94 187.96 0)
+    (property "Reference" "#PWR082" (at 281.94 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 278.13 180.34 0)
@@ -4637,7 +4649,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -4750,7 +4762,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 144.78 189.23 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab74264a-d8b4-426f-82c9-b5cf1d9420f6)
-    (property "Reference" "JP2" (at 142.24 189.23 90)
+    (property "Reference" "JP7" (at 142.24 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_3_Open" (at 142.24 187.96 90)
@@ -4768,7 +4780,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "JP2") (unit 1)
+          (reference "JP7") (unit 1)
         )
       )
     )
@@ -4777,7 +4789,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acb09124-14ae-4d35-8b07-ca6a0e015b0d)
-    (property "Reference" "#PWR055" (at 187.96 167.64 0)
+    (property "Reference" "#PWR078" (at 187.96 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 158.75 0)
@@ -4793,7 +4805,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -4829,16 +4841,16 @@
     (property "Manufacturer_Part_Number" "TX2-L2-5V" (at 129.54 873.66 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 85975722-2247-4ea3-b8f3-e8d26d32dce7))
-    (pin "10" (uuid bbb9ffe5-0dab-404c-9d42-d1639de34a5c))
-    (pin "12" (uuid 4ea72c8b-4c1d-4674-9cd0-cb2851ee54c3))
-    (pin "3" (uuid 7b422c09-8685-4b9c-b7d3-68827e13ffc1))
-    (pin "4" (uuid 814140c0-809d-4767-b348-1e6f699f80ce))
-    (pin "5" (uuid b7078c5b-df26-4095-a251-714c9e65d0d0))
-    (pin "6" (uuid 786eba0d-72db-4f3a-be35-f52edd841dc7))
-    (pin "7" (uuid bbd58c10-9cf7-4ee5-9776-d5a778feb27a))
-    (pin "8" (uuid b264b4cb-4f45-4646-a6e3-ac2962099ef6))
-    (pin "9" (uuid 65277752-e4a0-4d00-8da0-9dc739877ecc))
+    (pin "1" (uuid 1477db85-367c-4c7a-a5c1-452ad5d4082d))
+    (pin "10" (uuid 5cdd1cb5-1a9b-42bf-8f2c-5f82df12b8ab))
+    (pin "12" (uuid 494c3247-bcb9-4a7b-a8c4-eccda547ca07))
+    (pin "3" (uuid b2077572-6ef5-42ab-b2d8-da468db146e1))
+    (pin "4" (uuid c13a0d66-8690-4b20-b545-623b932178d4))
+    (pin "5" (uuid 88f7e372-112e-4297-a824-e6dd420b48b1))
+    (pin "6" (uuid 3b00ce11-cac4-4150-898c-9fa3c5b19df6))
+    (pin "7" (uuid 074cf6d4-8806-4a4a-b8e5-c0cae5273a1e))
+    (pin "8" (uuid eeab1152-c68c-49a7-a651-4326043f8b11))
+    (pin "9" (uuid 6e899147-fcd8-402c-b747-c7f5123e0a7c))
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
@@ -4878,7 +4890,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J6") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -4887,7 +4899,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b71526f2-6a1d-4a94-9907-82cdc27be5f6)
-    (property "Reference" "#PWR053" (at 187.96 140.97 0)
+    (property "Reference" "#PWR077" (at 187.96 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 132.08 0)
@@ -4903,7 +4915,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -4945,7 +4957,7 @@
   (symbol (lib_id "power:+3.3V") (at 281.94 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b808e967-55dd-4b8c-9f18-20691aba678e)
-    (property "Reference" "#PWR029" (at 281.94 101.6 0)
+    (property "Reference" "#PWR081" (at 281.94 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 278.13 93.98 0)
@@ -4961,7 +4973,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -5022,7 +5034,7 @@
   (symbol (lib_id "power:GND") (at 149.86 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b923d01b-66e8-40e1-a045-0c6f978a57a9)
-    (property "Reference" "#PWR018" (at 149.86 195.58 0)
+    (property "Reference" "#PWR068" (at 149.86 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 194.31 0)
@@ -5038,7 +5050,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -5047,7 +5059,7 @@
   (symbol (lib_id "power:GND") (at 292.1 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9e6c785-982d-4855-b847-7d16cbbf36ba)
-    (property "Reference" "#PWR026" (at 292.1 121.92 0)
+    (property "Reference" "#PWR083" (at 292.1 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 120.65 0)
@@ -5063,7 +5075,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -5072,7 +5084,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb1180e3-a1cb-41fb-a1c1-99f97bd50aae)
-    (property "Reference" "#PWR057" (at 133.35 162.56 0)
+    (property "Reference" "#PWR064" (at 133.35 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 153.67 0)
@@ -5088,7 +5100,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -5097,7 +5109,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8f26725-7855-4ec6-b2ae-8aef32ea844f)
-    (property "Reference" "#PWR060" (at 157.48 195.58 0)
+    (property "Reference" "#PWR074" (at 157.48 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 186.69 0)
@@ -5113,7 +5125,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -5146,7 +5158,7 @@
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J10") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -5155,7 +5167,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dad26954-256a-4927-9a24-abc33c3bbe04)
-    (property "Reference" "#PWR065" (at 133.35 217.17 0)
+    (property "Reference" "#PWR066" (at 133.35 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 208.28 0)
@@ -5171,7 +5183,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -5180,7 +5192,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db62b62d-6a1e-4a6c-b5c7-e3aa91b9a162)
-    (property "Reference" "#PWR039" (at 187.96 87.63 0)
+    (property "Reference" "#PWR075" (at 187.96 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 78.74 0)
@@ -5196,7 +5208,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -5205,7 +5217,7 @@
   (symbol (lib_id "power:+5V") (at 58.42 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e53472b8-f48c-45e0-a873-32f7185f2623)
-    (property "Reference" "#PWR034" (at 58.42 81.28 0)
+    (property "Reference" "#PWR051" (at 58.42 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 58.42 72.39 0)
@@ -5221,7 +5233,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -5267,7 +5279,7 @@
           (reference "U5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "U5") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -5276,7 +5288,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 250.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea00f949-f2ce-4404-8911-6dc3f5e2af00)
-    (property "Reference" "R3" (at 153.67 248.92 0)
+    (property "Reference" "R11" (at 153.67 248.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "15k" (at 153.67 251.46 0)
@@ -5296,7 +5308,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "R3") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5357,7 +5369,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f57c43a2-618d-473c-b9eb-84b7fbfdce2b)
-    (property "Reference" "#PWR054" (at 157.48 167.64 0)
+    (property "Reference" "#PWR073" (at 157.48 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 158.75 0)
@@ -5373,7 +5385,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -5382,7 +5394,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f65a7b71-da1a-49fa-ae23-197c6ae889d5)
-    (property "Reference" "#PWR043" (at 133.35 109.22 0)
+    (property "Reference" "#PWR062" (at 133.35 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 100.33 0)
@@ -5398,7 +5410,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )

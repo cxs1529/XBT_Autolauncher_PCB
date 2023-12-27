@@ -3166,7 +3166,7 @@
   (symbol (lib_id "power:GND") (at 191.77 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01a72836-ffaf-44f9-81cf-6a677de4ff96)
-    (property "Reference" "#PWR0149" (at 191.77 264.16 0)
+    (property "Reference" "#PWR0132" (at 191.77 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 261.62 0)
@@ -3182,7 +3182,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -3214,7 +3214,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C72") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -3223,7 +3223,7 @@
   (symbol (lib_id "power:GND") (at 250.19 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04f5af22-a123-4a6f-bcd9-e002dbd48b25)
-    (property "Reference" "#PWR0127" (at 250.19 158.75 0)
+    (property "Reference" "#PWR0147" (at 250.19 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 156.21 0)
@@ -3239,7 +3239,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -3248,7 +3248,7 @@
   (symbol (lib_id "Device:C_Small") (at 275.59 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 057b9022-1d84-4636-b1d4-a4e8d58c0152)
-    (property "Reference" "C64" (at 274.32 115.57 0)
+    (property "Reference" "C75" (at 274.32 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 274.32 118.11 0)
@@ -3268,7 +3268,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C64") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -3277,7 +3277,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06d6a904-211f-4922-bbeb-65ca5f7f734b)
-    (property "Reference" "C55" (at 144.78 124.46 0)
+    (property "Reference" "C53" (at 144.78 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 144.78 127 0)
@@ -3297,7 +3297,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C55") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -3306,7 +3306,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08cfb0bc-c80a-4d29-9d00-9506c04bbaab)
-    (property "Reference" "R12" (at 53.34 40.64 0)
+    (property "Reference" "R18" (at 53.34 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 53.34 43.18 0)
@@ -3326,7 +3326,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R12") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3335,7 +3335,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c26edc3-7add-45e5-a161-f29c26105dce)
-    (property "Reference" "C53" (at 100.33 157.48 0)
+    (property "Reference" "C46" (at 100.33 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 100.33 160.02 0)
@@ -3355,7 +3355,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C53") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -3364,7 +3364,7 @@
   (symbol (lib_id "power:+3.3V") (at 321.31 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c68cf93-8e81-44ab-a1ba-1695ffbe8424)
-    (property "Reference" "#PWR0133" (at 321.31 158.75 0)
+    (property "Reference" "#PWR0159" (at 321.31 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 325.12 152.4 0)
@@ -3380,7 +3380,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -3389,7 +3389,7 @@
   (symbol (lib_id "Device:C_Small") (at 270.51 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fae3b7c-fd6e-4747-ad16-64a27bba836a)
-    (property "Reference" "C63" (at 269.24 119.38 0)
+    (property "Reference" "C73" (at 269.24 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 269.24 121.92 0)
@@ -3409,7 +3409,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C63") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -3418,7 +3418,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 77.47 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1016d0b2-c9e3-4711-82ee-7dc99727fc14)
-    (property "Reference" "C32" (at 100.33 77.47 0)
+    (property "Reference" "C45" (at 100.33 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 100.33 80.01 0)
@@ -3438,7 +3438,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C32") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -3447,7 +3447,7 @@
   (symbol (lib_id "power:GND") (at 39.37 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11d26f4b-60bf-458a-850e-a867bda69ce8)
-    (property "Reference" "#PWR076" (at 39.37 78.74 0)
+    (property "Reference" "#PWR092" (at 39.37 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 76.2 0)
@@ -3463,7 +3463,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -3472,7 +3472,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12f2cf5b-5c32-4a94-8fab-066892cdb388)
-    (property "Reference" "R19" (at 46.99 162.56 0)
+    (property "Reference" "R16" (at 46.99 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 46.99 165.1 0)
@@ -3492,7 +3492,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R19") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3501,7 +3501,7 @@
   (symbol (lib_id "Device:R_Small") (at 255.27 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 161ea812-fce7-48b1-bdb9-ec10c7734b2f)
-    (property "Reference" "R25" (at 257.81 162.56 0)
+    (property "Reference" "R33" (at 257.81 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 257.81 165.1 0)
@@ -3521,7 +3521,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R25") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3530,7 +3530,7 @@
   (symbol (lib_id "power:GND") (at 41.91 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 169f21cf-8de9-4c32-a511-59511e45e188)
-    (property "Reference" "#PWR074" (at 41.91 92.71 0)
+    (property "Reference" "#PWR097" (at 41.91 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 90.17 0)
@@ -3546,7 +3546,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -3555,7 +3555,7 @@
   (symbol (lib_id "power:GND") (at 67.31 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16c583c6-581d-4f25-a22a-a06b9fb3506c)
-    (property "Reference" "#PWR0109" (at 67.31 161.29 0)
+    (property "Reference" "#PWR0101" (at 67.31 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 158.75 0)
@@ -3571,7 +3571,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -3580,7 +3580,7 @@
   (symbol (lib_id "Device:C_Small") (at 59.69 212.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16c60625-dba3-420c-972c-22cf417d1457)
-    (property "Reference" "C69" (at 58.42 204.47 0)
+    (property "Reference" "C41" (at 58.42 204.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 58.42 207.01 0)
@@ -3600,7 +3600,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C69") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -3609,7 +3609,7 @@
   (symbol (lib_id "power:GND") (at 252.73 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 192a959a-09be-42d6-98cb-40f228a51a52)
-    (property "Reference" "#PWR099" (at 252.73 92.71 0)
+    (property "Reference" "#PWR0148" (at 252.73 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 90.17 0)
@@ -3625,7 +3625,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -3634,7 +3634,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 217.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 195f0254-d558-41a6-a127-153f625f75b3)
-    (property "Reference" "C73" (at 144.78 209.55 0)
+    (property "Reference" "C55" (at 144.78 209.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 144.78 212.09 0)
@@ -3654,7 +3654,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C73") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -3663,7 +3663,7 @@
   (symbol (lib_id "power:GND") (at 250.19 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19e2a3f4-9226-4c58-8574-19c2e69f6daf)
-    (property "Reference" "#PWR0126" (at 250.19 140.97 0)
+    (property "Reference" "#PWR0146" (at 250.19 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 138.43 0)
@@ -3679,7 +3679,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -3711,7 +3711,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C28") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3720,7 +3720,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 156.21 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1eb7355d-9644-483a-9baf-64d52feb6c83)
-    (property "Reference" "J18" (at 168.91 110.49 90)
+    (property "Reference" "J20" (at 168.91 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "216548-1" (at 143.51 110.49 90)
@@ -3744,7 +3744,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "J18") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
@@ -3753,7 +3753,7 @@
   (symbol (lib_id "power:+3.3V") (at 321.31 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 203f943c-ef5c-4804-a73b-2b33e54b0159)
-    (property "Reference" "#PWR0104" (at 321.31 78.74 0)
+    (property "Reference" "#PWR0158" (at 321.31 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 325.12 72.39 0)
@@ -3769,7 +3769,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -3778,7 +3778,7 @@
   (symbol (lib_id "Device:R_Small") (at 162.56 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23252777-fd66-4acf-95dc-515bed639cd1)
-    (property "Reference" "R32" (at 160.02 205.74 0)
+    (property "Reference" "R29" (at 160.02 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 160.02 208.28 0)
@@ -3798,7 +3798,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R32") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -3822,15 +3822,15 @@
     (property "Digikey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECA-1HM101/245041" (at 30.48 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b064c873-d58f-4d6b-a676-2fbee428e7e9))
-    (pin "2" (uuid a39bb443-3c29-4081-b161-5ed680b256b8))
+    (pin "1" (uuid 726ff0e3-6f48-4fa7-97b3-bda7d29b902a))
+    (pin "2" (uuid 9b8436f4-55c9-470a-8201-0fa3ef6e0207))
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C48") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -3839,7 +3839,7 @@
   (symbol (lib_id "power:GND") (at 41.91 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2613e2d9-fca4-4803-92cb-b709673fc408)
-    (property "Reference" "#PWR0138" (at 41.91 257.81 0)
+    (property "Reference" "#PWR099" (at 41.91 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 255.27 0)
@@ -3855,7 +3855,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -3864,7 +3864,7 @@
   (symbol (lib_id "power:GND") (at 30.48 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 282abab6-18ed-4e0e-9990-6b9829b0bde5)
-    (property "Reference" "#PWR077" (at 30.48 72.39 0)
+    (property "Reference" "#PWR088" (at 30.48 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 69.85 0)
@@ -3880,7 +3880,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -3889,13 +3889,13 @@
   (symbol (lib_id "DRV8825PWPR:DRV8825PWPR") (at 278.13 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cd501fd-6025-46a1-b857-412b0cfa3269)
-    (property "Reference" "IC5" (at 295.91 34.29 0)
+    (property "Reference" "IC9" (at 295.91 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8825PWPR" (at 295.91 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 309.88 136.83 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 309.88 136.83 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 309.88 236.83 0)
@@ -3948,7 +3948,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "IC5") (unit 1)
+          (reference "IC9") (unit 1)
         )
       )
     )
@@ -3957,7 +3957,7 @@
   (symbol (lib_id "power:GND") (at 85.09 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ed84c02-0e75-4a90-a550-536a2d51d032)
-    (property "Reference" "#PWR0110" (at 85.09 179.07 0)
+    (property "Reference" "#PWR0104" (at 85.09 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 176.53 0)
@@ -3973,7 +3973,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -3982,7 +3982,7 @@
   (symbol (lib_id "power:GND") (at 137.16 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30529c4b-6bb3-4ebc-a17b-301efabd1fa3)
-    (property "Reference" "#PWR073" (at 137.16 72.39 0)
+    (property "Reference" "#PWR0115" (at 137.16 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 69.85 0)
@@ -3998,7 +3998,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -4007,7 +4007,7 @@
   (symbol (lib_id "power:GND") (at 331.47 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 312e2637-f197-43f1-9b28-6808e2cfdb9d)
-    (property "Reference" "#PWR0182" (at 331.47 217.17 0)
+    (property "Reference" "#PWR0161" (at 331.47 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 331.47 214.63 0)
@@ -4023,7 +4023,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0182") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -4032,7 +4032,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31551255-c6d7-42d9-90bc-268d03bb0e44)
-    (property "Reference" "C59" (at 207.01 157.48 0)
+    (property "Reference" "C64" (at 207.01 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 207.01 160.02 0)
@@ -4052,7 +4052,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C59") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
     )
@@ -4084,7 +4084,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C60") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -4093,7 +4093,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 156.21 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31d78c6a-f695-4fbe-947a-f26cbb4278f5)
-    (property "Reference" "J14" (at 168.91 30.48 90)
+    (property "Reference" "J19" (at 168.91 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "216548-1" (at 143.51 30.48 90)
@@ -4117,7 +4117,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "J14") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -4126,7 +4126,7 @@
   (symbol (lib_id "power:GND") (at 146.05 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3229f427-df4b-4b4d-b33e-1cda38d8e2d0)
-    (property "Reference" "#PWR0146" (at 146.05 243.84 0)
+    (property "Reference" "#PWR0123" (at 146.05 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 241.3 0)
@@ -4142,7 +4142,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -4151,7 +4151,7 @@
   (symbol (lib_id "power:GND") (at 278.13 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 324e78e6-ae04-4c38-8757-ab74d79548e3)
-    (property "Reference" "#PWR0129" (at 278.13 161.29 0)
+    (property "Reference" "#PWR0151" (at 278.13 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 158.75 0)
@@ -4167,7 +4167,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -4176,13 +4176,13 @@
   (symbol (lib_id "DRV8825PWPR:DRV8825PWPR") (at 67.31 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 333c3449-5562-429a-9942-950dca19773e)
-    (property "Reference" "IC9" (at 85.09 199.39 0)
+    (property "Reference" "IC5" (at 85.09 199.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8825PWPR" (at 85.09 201.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 99.06 301.93 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 99.06 301.93 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 99.06 401.93 0)
@@ -4203,39 +4203,39 @@
     (property "Manufacturer_Part_Number" "DRV8825PWPR" (at 99.06 1001.93 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid b54fe8eb-2b04-4684-909f-b5313753a49c))
-    (pin "10" (uuid 4793db09-2e61-48dd-b578-dab1a015ee45))
-    (pin "11" (uuid 301ef544-38b3-48ec-9ef3-49beb04e7bad))
-    (pin "12" (uuid e7b0fedb-86a8-49f6-82f0-fac6a0b924cd))
-    (pin "13" (uuid a7e3610a-735a-419b-be46-64246a7cbecb))
-    (pin "14" (uuid a91a87bc-4539-4a49-a197-3264e3545dcf))
-    (pin "15" (uuid 287a8c0d-ca55-47f2-ba04-3bb32a43765e))
-    (pin "16" (uuid 698dfb77-8c4e-4549-9feb-36fd71dfb05e))
-    (pin "17" (uuid 69117976-10fa-4448-a953-7eb829d9c9f1))
-    (pin "18" (uuid e93f9a76-0c64-4929-a5f6-764661411a15))
-    (pin "19" (uuid a57c0c56-f231-4b43-be26-1f9b5ff77d59))
-    (pin "2" (uuid 165d0ec1-364e-4e7b-87f8-bbbd782ae5c4))
-    (pin "20" (uuid 86dba24c-b357-4033-8192-8b0ba475dc8e))
-    (pin "21" (uuid 0ed588c1-85f5-4f5b-8fce-c6ab1fe37c05))
-    (pin "22" (uuid d95407db-e78e-42b6-8a4f-d94782fef086))
-    (pin "23" (uuid 84c1db95-34f9-4d83-ac29-e40b9c27a5fa))
-    (pin "24" (uuid e4fc09cc-0d3c-4319-8bb0-9d9ff9df6788))
-    (pin "25" (uuid 67158a28-5d3c-4ebd-ba4f-0d9229c66774))
-    (pin "26" (uuid dff59460-4f0f-4c12-a987-c619f1822f1d))
-    (pin "27" (uuid 9593a815-2261-4aa1-ab8a-e0c27dbcb724))
-    (pin "28" (uuid aef50d46-b555-4b7b-97f0-24c84a5f633c))
-    (pin "29" (uuid b8f75511-c302-4583-90a8-9f3d6403c786))
-    (pin "3" (uuid f57e7236-78b5-4a98-9e52-ddfeba3ee307))
-    (pin "4" (uuid f253fa11-9b08-4c61-a880-5673847236ae))
-    (pin "5" (uuid 6a5d7ca6-22a6-4f96-b6c7-a0a58caf583b))
-    (pin "6" (uuid 486ee997-608a-4238-863d-373b62f73e11))
-    (pin "7" (uuid 0cb728a2-b6d6-4d71-a768-8f50a7abb9e4))
-    (pin "8" (uuid fcddadd0-8575-4d17-a725-384d77be797c))
-    (pin "9" (uuid 878bb355-7a78-44bb-b501-f5a744c8fbf5))
+    (pin "1" (uuid 8403fcee-f7a2-42c6-945f-61379cec60b0))
+    (pin "10" (uuid 830523bf-110f-452a-8b03-b034204114a0))
+    (pin "11" (uuid ecafd152-82a7-41d5-9073-ebb4c561db8a))
+    (pin "12" (uuid 08da5a02-24bd-4fd0-9abf-40577e3b548a))
+    (pin "13" (uuid 94404bd2-6125-49ae-9fe6-1d48ab25a2f1))
+    (pin "14" (uuid 2490e787-ce85-4780-b61b-62ca4d84cdca))
+    (pin "15" (uuid b236661c-9eae-43df-be82-b03e95934daf))
+    (pin "16" (uuid 70d820ed-bd43-4854-b18f-caea0a24cae7))
+    (pin "17" (uuid dab14d42-bfdb-4984-ae78-ece639012ef3))
+    (pin "18" (uuid 49e41f62-bb35-429e-bec8-fd1fcd46332c))
+    (pin "19" (uuid 7f8c75d4-ed37-4fcd-b2ff-0d6186eb24b5))
+    (pin "2" (uuid 916b84c2-7998-425b-87c8-9097a88f16f5))
+    (pin "20" (uuid 6b822ecc-97c3-4260-bbfe-0dc864e651f7))
+    (pin "21" (uuid 2b8cb564-47eb-42fd-941b-2220bd7f0f6b))
+    (pin "22" (uuid c9ad6de6-32fb-4ff4-b947-8b33efb70a00))
+    (pin "23" (uuid aac87554-e57f-4954-9bd2-89bd1eb0b360))
+    (pin "24" (uuid d6099e0b-e5cd-40ce-92aa-ef8d2fd580b4))
+    (pin "25" (uuid a225a885-2744-401f-8ab0-ed6485bcca63))
+    (pin "26" (uuid 04f6df95-20e9-4f9e-9d34-1572d5e2ac9f))
+    (pin "27" (uuid 82eebae5-92c2-42a4-bb04-3c4f24fdd1cb))
+    (pin "28" (uuid e4504119-1912-4927-acae-b6f49b005d71))
+    (pin "29" (uuid c9de3459-b4e4-463b-920e-e097d3cec30c))
+    (pin "3" (uuid 8db2dca1-e3d4-40cc-bd26-9c8955308e71))
+    (pin "4" (uuid b6548426-a2e1-4123-b44c-e7dd42b7173a))
+    (pin "5" (uuid c5b18ba9-5067-4ff3-bcff-6ffc5ee115a9))
+    (pin "6" (uuid 1c1b5979-cf0a-417f-9060-d7fa3d677918))
+    (pin "7" (uuid de98e373-e4f0-4450-9cf4-2950f0be2fce))
+    (pin "8" (uuid ad31dc1f-b949-405f-837e-74ae31956445))
+    (pin "9" (uuid 54d71d03-0010-4fba-9d93-b118705334b2))
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "IC9") (unit 1)
+          (reference "IC5") (unit 1)
         )
       )
     )
@@ -4244,7 +4244,7 @@
   (symbol (lib_id "power:GND") (at 106.68 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34c9231f-d700-4711-908c-a7581d0b4542)
-    (property "Reference" "#PWR0142" (at 106.68 251.46 0)
+    (property "Reference" "#PWR0111" (at 106.68 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 248.92 0)
@@ -4260,7 +4260,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -4302,7 +4302,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 248.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35b72658-129c-478b-b618-fa172472905d)
-    (property "Reference" "R28" (at 46.99 247.65 0)
+    (property "Reference" "R17" (at 46.99 247.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 46.99 250.19 0)
@@ -4322,7 +4322,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R28") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4331,7 +4331,7 @@
   (symbol (lib_id "Device:C_Small") (at 171.45 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37c87574-333e-41b1-a2fb-af6bd49a0f54)
-    (property "Reference" "C58" (at 170.18 115.57 0)
+    (property "Reference" "C61" (at 170.18 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 170.18 118.11 0)
@@ -4351,7 +4351,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C58") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -4360,7 +4360,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 260.35 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a608356-e63c-46c6-a64e-8b9abc123b02)
-    (property "Reference" "J16" (at 273.05 30.48 90)
+    (property "Reference" "J22" (at 273.05 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "216548-1" (at 247.65 30.48 90)
@@ -4384,7 +4384,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "J16") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
@@ -4393,7 +4393,7 @@
   (symbol (lib_id "Device:R_Small") (at 252.73 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e304e9f-0fed-4296-92ca-a46bb9e11216)
-    (property "Reference" "R15" (at 247.65 82.55 0)
+    (property "Reference" "R30" (at 247.65 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 247.65 85.09 0)
@@ -4413,7 +4413,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R15") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -4422,7 +4422,7 @@
   (symbol (lib_id "power:GND") (at 252.73 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 432221b1-8083-4410-869d-25bc75fc722e)
-    (property "Reference" "#PWR0128" (at 252.73 172.72 0)
+    (property "Reference" "#PWR0149" (at 252.73 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 170.18 0)
@@ -4438,7 +4438,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -4447,7 +4447,7 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4682071a-f959-4d80-a307-5fb67cce42a5)
-    (property "Reference" "R9" (at 36.83 82.55 0)
+    (property "Reference" "R12" (at 36.83 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 36.83 85.09 0)
@@ -4467,7 +4467,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R9") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4476,7 +4476,7 @@
   (symbol (lib_id "Device:C_Small") (at 275.59 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 478cd87e-55dd-4e61-9285-cc52e3ee7afd)
-    (property "Reference" "C46" (at 274.32 35.56 0)
+    (property "Reference" "C74" (at 274.32 35.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 274.32 38.1 0)
@@ -4496,7 +4496,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C46") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -4505,7 +4505,7 @@
   (symbol (lib_id "power:+3.3V") (at 110.49 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ad81876-a532-4236-b8cc-51cb8460e2dc)
-    (property "Reference" "#PWR083" (at 110.49 78.74 0)
+    (property "Reference" "#PWR0112" (at 110.49 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 114.3 72.39 0)
@@ -4521,7 +4521,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -4530,7 +4530,7 @@
   (symbol (lib_id "power:GND") (at 317.5 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4badc90d-d534-49da-8912-5a30a5b5ce3b)
-    (property "Reference" "#PWR0131" (at 317.5 124.46 0)
+    (property "Reference" "#PWR0156" (at 317.5 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 121.92 0)
@@ -4546,7 +4546,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -4555,7 +4555,7 @@
   (symbol (lib_id "power:GND") (at 146.05 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c324e05-cd27-43dd-a2bd-02f2a019f4fd)
-    (property "Reference" "#PWR0117" (at 146.05 158.75 0)
+    (property "Reference" "#PWR0121" (at 146.05 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 156.21 0)
@@ -4571,7 +4571,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -4580,7 +4580,7 @@
   (symbol (lib_id "power:GND") (at 39.37 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e12c14b-59ea-4a4e-99a9-3ce6905a4985)
-    (property "Reference" "#PWR0106" (at 39.37 140.97 0)
+    (property "Reference" "#PWR093" (at 39.37 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 138.43 0)
@@ -4596,7 +4596,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -4605,7 +4605,7 @@
   (symbol (lib_id "power:GND") (at 106.68 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f308806-ab08-4625-bb07-ab840ca6d5ed)
-    (property "Reference" "#PWR0112" (at 106.68 124.46 0)
+    (property "Reference" "#PWR0108" (at 106.68 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 121.92 0)
@@ -4621,7 +4621,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -4630,7 +4630,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f60957a-79d5-4da2-9167-dddf4163adb8)
-    (property "Reference" "R13" (at 153.67 82.55 0)
+    (property "Reference" "R24" (at 153.67 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 153.67 85.09 0)
@@ -4650,7 +4650,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R13") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -4659,7 +4659,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52f38643-f853-43d0-885b-eef9667797a0)
-    (property "Reference" "R29" (at 53.34 205.74 0)
+    (property "Reference" "R20" (at 53.34 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 53.34 208.28 0)
@@ -4679,7 +4679,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R29") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4688,7 +4688,7 @@
   (symbol (lib_id "power:GND") (at 39.37 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55b2b466-1a8d-4a7c-bd54-8d389cac0e34)
-    (property "Reference" "#PWR0135" (at 39.37 226.06 0)
+    (property "Reference" "#PWR095" (at 39.37 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 223.52 0)
@@ -4704,7 +4704,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -4713,7 +4713,7 @@
   (symbol (lib_id "power:GND") (at 191.77 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56e84dc1-52c2-475a-a464-3b3979c763f1)
-    (property "Reference" "#PWR091" (at 191.77 99.06 0)
+    (property "Reference" "#PWR0130" (at 191.77 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 96.52 0)
@@ -4729,7 +4729,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -4738,7 +4738,7 @@
   (symbol (lib_id "power:GND") (at 191.77 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58fa3eb8-f57b-497a-be49-da7e129f1857)
-    (property "Reference" "#PWR0120" (at 191.77 179.07 0)
+    (property "Reference" "#PWR0131" (at 191.77 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 176.53 0)
@@ -4754,7 +4754,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -4763,7 +4763,7 @@
   (symbol (lib_id "power:GND") (at 278.13 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59d729fc-90ef-4cba-bc69-fa8ccf5c37e2)
-    (property "Reference" "#PWR0100" (at 278.13 81.28 0)
+    (property "Reference" "#PWR0150" (at 278.13 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 78.74 0)
@@ -4779,7 +4779,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -4788,7 +4788,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 260.35 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a37e8a5-8c22-4d03-8e54-ee4f7a94ca36)
-    (property "Reference" "J19" (at 273.05 110.49 90)
+    (property "Reference" "J23" (at 273.05 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "216548-1" (at 247.65 110.49 90)
@@ -4812,7 +4812,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "J19") (unit 1)
+          (reference "J23") (unit 1)
         )
       )
     )
@@ -4821,7 +4821,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 248.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5df683c0-6d5d-4b3b-9ba3-ab93dd1a431b)
-    (property "Reference" "R31" (at 153.67 247.65 0)
+    (property "Reference" "R26" (at 153.67 247.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 153.67 250.19 0)
@@ -4841,7 +4841,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R31") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -4850,7 +4850,7 @@
   (symbol (lib_id "Device:C_Small") (at 270.51 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ecef892-474c-4d48-905f-400b2f40c94a)
-    (property "Reference" "C45" (at 269.24 39.37 0)
+    (property "Reference" "C72" (at 269.24 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 269.24 41.91 0)
@@ -4870,7 +4870,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C45") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -4885,7 +4885,7 @@
     (property "Value" "DRV8825PWPR" (at 191.77 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 205.74 216.84 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 205.74 216.84 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 205.74 316.84 0)
@@ -4947,7 +4947,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 331.47 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 615ce819-5822-46f4-b268-3ff35e7b216f)
-    (property "Reference" "RV9" (at 328.93 205.74 0)
+    (property "Reference" "RV1" (at 328.93 205.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 328.93 208.28 0)
@@ -4968,7 +4968,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "RV9") (unit 1)
+          (reference "RV1") (unit 1)
         )
       )
     )
@@ -4977,7 +4977,7 @@
   (symbol (lib_id "Device:R_Small") (at 162.56 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63f613dc-f803-4454-a140-67966bc99576)
-    (property "Reference" "R14" (at 160.02 40.64 0)
+    (property "Reference" "R27" (at 160.02 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 160.02 43.18 0)
@@ -4997,7 +4997,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R14") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -5006,7 +5006,7 @@
   (symbol (lib_id "power:GND") (at 148.59 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65b57050-58cd-4439-a0a5-0bb4eb1b2d8a)
-    (property "Reference" "#PWR089" (at 148.59 92.71 0)
+    (property "Reference" "#PWR0124" (at 148.59 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 90.17 0)
@@ -5022,7 +5022,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -5031,7 +5031,7 @@
   (symbol (lib_id "power:GND") (at 146.05 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66f0c977-7080-498a-8d1b-cc29a0da17f3)
-    (property "Reference" "#PWR0145" (at 146.05 226.06 0)
+    (property "Reference" "#PWR0122" (at 146.05 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 223.52 0)
@@ -5047,7 +5047,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -5056,7 +5056,7 @@
   (symbol (lib_id "power:GND") (at 30.48 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68a7c07d-a810-4fbd-94dc-ea72e68d8955)
-    (property "Reference" "#PWR0105" (at 30.48 152.4 0)
+    (property "Reference" "#PWR089" (at 30.48 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 149.86 0)
@@ -5072,7 +5072,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -5081,7 +5081,7 @@
   (symbol (lib_id "Device:C_Small") (at 59.69 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69dd54fa-4cff-42ae-9874-08218445ffeb)
-    (property "Reference" "C29" (at 58.42 39.37 0)
+    (property "Reference" "C39" (at 58.42 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 58.42 41.91 0)
@@ -5101,7 +5101,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C29") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -5110,7 +5110,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 242.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b55e8c1-89ab-4324-abe0-92e4b761f9d6)
-    (property "Reference" "C77" (at 207.01 242.57 0)
+    (property "Reference" "C65" (at 207.01 242.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 207.01 245.11 0)
@@ -5130,7 +5130,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C77") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -5139,7 +5139,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bfb2504-3bf5-436f-924a-b957e8ac41df)
-    (property "Reference" "C62" (at 248.92 142.24 0)
+    (property "Reference" "C71" (at 248.92 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 248.92 144.78 0)
@@ -5159,7 +5159,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C62") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -5168,7 +5168,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 242.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6caa657f-9264-45ef-a0b1-2807be263359)
-    (property "Reference" "C71" (at 100.33 242.57 0)
+    (property "Reference" "C47" (at 100.33 242.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 100.33 245.11 0)
@@ -5188,7 +5188,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C71") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -5197,7 +5197,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6df557cf-c8d2-41ee-ae42-4cc89f8ccf08)
-    (property "Reference" "R21" (at 143.51 162.56 0)
+    (property "Reference" "R22" (at 143.51 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 143.51 165.1 0)
@@ -5217,7 +5217,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -5226,7 +5226,7 @@
   (symbol (lib_id "Device:R_Small") (at 266.7 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e4c8ec6-6df2-481d-b022-b34d696f1158)
-    (property "Reference" "R17" (at 264.16 40.64 0)
+    (property "Reference" "R34" (at 264.16 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 264.16 43.18 0)
@@ -5246,7 +5246,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R17") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -5255,7 +5255,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f484539-2652-4c8d-af58-e2d080e7a422)
-    (property "Reference" "R20" (at 53.34 120.65 0)
+    (property "Reference" "R19" (at 53.34 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 53.34 123.19 0)
@@ -5275,7 +5275,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R20") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -5284,7 +5284,7 @@
   (symbol (lib_id "power:GND") (at 106.68 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f4d1a18-7c41-4349-ac5d-ddba3fae67f3)
-    (property "Reference" "#PWR0141" (at 106.68 209.55 0)
+    (property "Reference" "#PWR0110" (at 106.68 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 207.01 0)
@@ -5300,7 +5300,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -5309,7 +5309,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72bc0171-d9b1-46cc-bb3b-3b841a2de4a4)
-    (property "Reference" "C49" (at 38.1 124.46 0)
+    (property "Reference" "C35" (at 38.1 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 38.1 127 0)
@@ -5329,7 +5329,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C49") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -5338,7 +5338,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74a36abb-e7b5-4bdd-aad0-caf38567bbd0)
-    (property "Reference" "C52" (at 63.5 115.57 0)
+    (property "Reference" "C43" (at 63.5 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 63.5 118.11 0)
@@ -5358,7 +5358,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C52") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -5367,7 +5367,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76f313e4-91a9-4b19-b2b4-0ccecc75704f)
-    (property "Reference" "C39" (at 165.1 39.37 0)
+    (property "Reference" "C57" (at 165.1 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 165.1 41.91 0)
@@ -5387,7 +5387,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C39") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -5396,7 +5396,7 @@
   (symbol (lib_id "power:+3.3V") (at 217.17 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79e2e9af-27b2-473f-a6f7-e1dc6821a42e)
-    (property "Reference" "#PWR094" (at 217.17 78.74 0)
+    (property "Reference" "#PWR0139" (at 217.17 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.98 72.39 0)
@@ -5412,7 +5412,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -5421,7 +5421,7 @@
   (symbol (lib_id "power:GND") (at 213.36 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c3e575f-7546-4bc9-b283-2d0bd8a7a64c)
-    (property "Reference" "#PWR0121" (at 213.36 124.46 0)
+    (property "Reference" "#PWR0135" (at 213.36 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 121.92 0)
@@ -5437,7 +5437,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -5446,7 +5446,7 @@
   (symbol (lib_id "power:GND") (at 213.36 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cc558d4-fd83-457b-a376-32f3eefd90e0)
-    (property "Reference" "#PWR0151" (at 213.36 209.55 0)
+    (property "Reference" "#PWR0137" (at 213.36 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 207.01 0)
@@ -5462,7 +5462,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -5471,7 +5471,7 @@
   (symbol (lib_id "Device:C_Small") (at 59.69 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ce266b1-d696-40a7-bbd2-508271391290)
-    (property "Reference" "C51" (at 58.42 119.38 0)
+    (property "Reference" "C40" (at 58.42 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 58.42 121.92 0)
@@ -5491,7 +5491,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C51") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -5500,7 +5500,7 @@
   (symbol (lib_id "power:GND") (at 39.37 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d1c8e80-1662-4ce0-a683-053ae37a23d6)
-    (property "Reference" "#PWR0107" (at 39.37 158.75 0)
+    (property "Reference" "#PWR094" (at 39.37 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 156.21 0)
@@ -5516,7 +5516,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -5525,7 +5525,7 @@
   (symbol (lib_id "power:GND") (at 317.5 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e15a0de-2a25-4b12-8dc7-e1f0332ce198)
-    (property "Reference" "#PWR0102" (at 317.5 44.45 0)
+    (property "Reference" "#PWR0154" (at 317.5 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 41.91 0)
@@ -5541,7 +5541,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -5573,7 +5573,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C42") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )
@@ -5582,7 +5582,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 207.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8046433d-c40d-41c1-aaba-6209c84713c6)
-    (property "Reference" "C70" (at 63.5 200.66 0)
+    (property "Reference" "C44" (at 63.5 200.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 63.5 203.2 0)
@@ -5602,7 +5602,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C70") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -5611,7 +5611,7 @@
   (symbol (lib_id "power:GND") (at 173.99 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81b4405d-abb4-4aff-a0af-966287f9b6b0)
-    (property "Reference" "#PWR090" (at 173.99 81.28 0)
+    (property "Reference" "#PWR0127" (at 173.99 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 78.74 0)
@@ -5627,7 +5627,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -5636,7 +5636,7 @@
   (symbol (lib_id "power:+3.3V") (at 331.47 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82caed93-b083-4bb4-b094-8e75b81ab43a)
-    (property "Reference" "#PWR0181" (at 331.47 207.01 0)
+    (property "Reference" "#PWR0160" (at 331.47 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 327.66 200.66 0)
@@ -5652,7 +5652,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -5661,7 +5661,7 @@
   (symbol (lib_id "power:GND") (at 137.16 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8349141c-1713-4b9a-8a2b-f28f269e5e16)
-    (property "Reference" "#PWR0144" (at 137.16 237.49 0)
+    (property "Reference" "#PWR0117" (at 137.16 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 234.95 0)
@@ -5677,7 +5677,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -5686,7 +5686,7 @@
   (symbol (lib_id "power:GND") (at 250.19 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8460879d-8307-4c3e-b809-159cf29a20b5)
-    (property "Reference" "#PWR097" (at 250.19 78.74 0)
+    (property "Reference" "#PWR0145" (at 250.19 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 76.2 0)
@@ -5702,7 +5702,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -5711,7 +5711,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8511a7ba-5a4a-41f9-8dbc-482b2787db59)
-    (property "Reference" "R11" (at 143.51 82.55 0)
+    (property "Reference" "R21" (at 143.51 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 143.51 85.09 0)
@@ -5731,7 +5731,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R11") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5740,7 +5740,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 49.53 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85b30f30-5396-476a-a271-68d37bc19a99)
-    (property "Reference" "J15" (at 62.23 30.48 90)
+    (property "Reference" "J16" (at 62.23 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "216548-1" (at 36.83 30.48 90)
@@ -5764,7 +5764,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "J15") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -5773,7 +5773,7 @@
   (symbol (lib_id "Device:C_Small") (at 317.5 77.47 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88b60929-a0dc-4943-8f18-d3731a3df396)
-    (property "Reference" "C47" (at 311.15 77.47 0)
+    (property "Reference" "C76" (at 311.15 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 311.15 80.01 0)
@@ -5793,7 +5793,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C47") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
     )
@@ -5802,7 +5802,7 @@
   (symbol (lib_id "power:GND") (at 213.36 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88c46f73-ca0c-4179-8611-147a8388ffe2)
-    (property "Reference" "#PWR092" (at 213.36 44.45 0)
+    (property "Reference" "#PWR0133" (at 213.36 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 41.91 0)
@@ -5818,7 +5818,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -5827,7 +5827,7 @@
   (symbol (lib_id "power:GND") (at 67.31 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a6e4fe7-be9f-4a84-a4d4-020e32688a36)
-    (property "Reference" "#PWR0139" (at 67.31 246.38 0)
+    (property "Reference" "#PWR0102" (at 67.31 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 243.84 0)
@@ -5843,7 +5843,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -5852,7 +5852,7 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c628cc9-aa2b-42da-ab42-fc8704db6530)
-    (property "Reference" "R18" (at 36.83 162.56 0)
+    (property "Reference" "R13" (at 36.83 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 36.83 165.1 0)
@@ -5872,7 +5872,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R18") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -5904,7 +5904,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C54") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -5913,7 +5913,7 @@
   (symbol (lib_id "power:GND") (at 106.68 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d409e2e-9f6d-45a9-b0de-b6b00bb0d242)
-    (property "Reference" "#PWR084" (at 106.68 44.45 0)
+    (property "Reference" "#PWR0106" (at 106.68 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 41.91 0)
@@ -5929,7 +5929,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -5938,7 +5938,7 @@
   (symbol (lib_id "power:GND") (at 295.91 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8da07e17-e4fc-4983-8b3f-70d7d22076ad)
-    (property "Reference" "#PWR0101" (at 295.91 99.06 0)
+    (property "Reference" "#PWR0152" (at 295.91 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 96.52 0)
@@ -5954,7 +5954,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -5963,7 +5963,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90e2097a-7b86-44fa-933e-0f560e8602c2)
-    (property "Reference" "C31" (at 38.1 44.45 0)
+    (property "Reference" "C33" (at 38.1 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 38.1 46.99 0)
@@ -5983,7 +5983,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C31") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -5992,7 +5992,7 @@
   (symbol (lib_id "power:GND") (at 173.99 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91b60f25-fdf7-46af-90de-9cb652b328e4)
-    (property "Reference" "#PWR0119" (at 173.99 161.29 0)
+    (property "Reference" "#PWR0128" (at 173.99 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 158.75 0)
@@ -6008,7 +6008,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -6017,7 +6017,7 @@
   (symbol (lib_id "power:GND") (at 39.37 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 924fee0e-f95e-4a20-9b48-c52166be0f3e)
-    (property "Reference" "#PWR078" (at 39.37 60.96 0)
+    (property "Reference" "#PWR091" (at 39.37 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 58.42 0)
@@ -6033,7 +6033,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -6042,7 +6042,7 @@
   (symbol (lib_id "power:+3.3V") (at 110.49 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92dd66ce-22cf-4c61-81f1-6efa2ff72b6d)
-    (property "Reference" "#PWR0143" (at 110.49 243.84 0)
+    (property "Reference" "#PWR0114" (at 110.49 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 114.3 237.49 0)
@@ -6058,7 +6058,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -6067,7 +6067,7 @@
   (symbol (lib_id "power:GND") (at 67.31 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93322819-9045-4761-ab6f-ab415d482fdd)
-    (property "Reference" "#PWR080" (at 67.31 81.28 0)
+    (property "Reference" "#PWR0100" (at 67.31 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 78.74 0)
@@ -6083,7 +6083,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -6092,7 +6092,7 @@
   (symbol (lib_id "power:GND") (at 148.59 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93b4cfda-0aa4-4f7a-8480-84ccaa182228)
-    (property "Reference" "#PWR0118" (at 148.59 172.72 0)
+    (property "Reference" "#PWR0125" (at 148.59 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 170.18 0)
@@ -6108,7 +6108,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -6117,7 +6117,7 @@
   (symbol (lib_id "power:+3.3V") (at 217.17 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95755c9a-a165-48eb-a2a2-583e58d9917f)
-    (property "Reference" "#PWR0123" (at 217.17 158.75 0)
+    (property "Reference" "#PWR0140" (at 217.17 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.98 152.4 0)
@@ -6133,7 +6133,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -6142,7 +6142,7 @@
   (symbol (lib_id "power:GND") (at 213.36 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95bad3fd-8225-4053-a2ae-1ed03d52a930)
-    (property "Reference" "#PWR093" (at 213.36 86.36 0)
+    (property "Reference" "#PWR0134" (at 213.36 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 83.82 0)
@@ -6158,7 +6158,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -6167,7 +6167,7 @@
   (symbol (lib_id "Device:R_Small") (at 162.56 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 974d2c05-05a1-43e9-89db-9fe998c7ada5)
-    (property "Reference" "R23" (at 160.02 120.65 0)
+    (property "Reference" "R28" (at 160.02 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 160.02 123.19 0)
@@ -6187,7 +6187,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R23") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -6196,7 +6196,7 @@
   (symbol (lib_id "Device:R_Small") (at 266.7 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97f8e0e4-43dc-458f-9864-e9d861b2cd80)
-    (property "Reference" "R26" (at 264.16 120.65 0)
+    (property "Reference" "R35" (at 264.16 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 264.16 123.19 0)
@@ -6216,7 +6216,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R26") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -6225,7 +6225,7 @@
   (symbol (lib_id "power:GND") (at 250.19 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9aff1d4a-1372-48f8-9179-9c1e4d116a75)
-    (property "Reference" "#PWR096" (at 250.19 60.96 0)
+    (property "Reference" "#PWR0144" (at 250.19 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 58.42 0)
@@ -6241,7 +6241,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -6250,7 +6250,7 @@
   (symbol (lib_id "power:GND") (at 173.99 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9dffe3b1-8868-4b3d-9159-e914f4f19c96)
-    (property "Reference" "#PWR0148" (at 173.99 246.38 0)
+    (property "Reference" "#PWR0129" (at 173.99 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 243.84 0)
@@ -6266,7 +6266,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -6275,7 +6275,7 @@
   (symbol (lib_id "power:GND") (at 39.37 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e26f85f-c519-4c41-bb9a-b8181c4f8daa)
-    (property "Reference" "#PWR0136" (at 39.37 243.84 0)
+    (property "Reference" "#PWR096" (at 39.37 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 241.3 0)
@@ -6291,7 +6291,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -6300,7 +6300,7 @@
   (symbol (lib_id "power:GND") (at 241.3 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9edc821d-2eed-4100-92cd-d07ec6181a7f)
-    (property "Reference" "#PWR0125" (at 241.3 152.4 0)
+    (property "Reference" "#PWR0143" (at 241.3 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 149.86 0)
@@ -6316,7 +6316,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -6325,7 +6325,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f8bd165-7173-4bd6-8890-aa19a3d142b8)
-    (property "Reference" "C56" (at 144.78 142.24 0)
+    (property "Reference" "C54" (at 144.78 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 144.78 144.78 0)
@@ -6345,7 +6345,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C56") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -6354,7 +6354,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3ce903d-59db-445c-8e07-f387cbb1385b)
-    (property "Reference" "R22" (at 153.67 162.56 0)
+    (property "Reference" "R25" (at 153.67 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 153.67 165.1 0)
@@ -6369,12 +6369,12 @@
     (property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RT0805FRE071RL/5934333" (at 151.13 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1c48d313-ba94-4c68-991e-3012445d3389))
-    (pin "2" (uuid 09ed6584-2218-4274-a9d1-13eebcdcdd26))
+    (pin "1" (uuid 01a56b3a-e7dc-48ef-86de-c398d32ac613))
+    (pin "2" (uuid 9e4e0eb8-0d6a-4591-8f50-a2599135e5ea))
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R22") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -6383,7 +6383,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7217787-1859-44d2-8f11-9b8f669e9109)
-    (property "Reference" "C27" (at 38.1 62.23 0)
+    (property "Reference" "C34" (at 38.1 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 38.1 64.77 0)
@@ -6403,7 +6403,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C27") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -6412,7 +6412,7 @@
   (symbol (lib_id "Device:C_Small") (at 171.45 207.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a87979dc-d931-4eed-b904-43206d5bdbd2)
-    (property "Reference" "C76" (at 170.18 200.66 0)
+    (property "Reference" "C62" (at 170.18 200.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 170.18 203.2 0)
@@ -6432,7 +6432,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C76") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -6441,7 +6441,7 @@
   (symbol (lib_id "power:+3.3V") (at 361.95 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ade918b2-30e7-4ed8-aedd-1ca172fccea6)
-    (property "Reference" "#PWR072" (at 361.95 203.2 0)
+    (property "Reference" "#PWR0162" (at 361.95 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 365.76 196.85 0)
@@ -6457,7 +6457,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -6466,7 +6466,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae25204c-9083-4645-9a68-5a43ce9ecc29)
-    (property "Reference" "C43" (at 248.92 44.45 0)
+    (property "Reference" "C68" (at 248.92 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 248.92 46.99 0)
@@ -6486,7 +6486,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C43") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -6495,7 +6495,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0598646-a2df-4c5d-85dd-273541f31aa9)
-    (property "Reference" "C44" (at 248.92 62.23 0)
+    (property "Reference" "C69" (at 248.92 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 248.92 64.77 0)
@@ -6515,7 +6515,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C44") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -6524,7 +6524,7 @@
   (symbol (lib_id "power:GND") (at 137.16 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1195b2f-7444-4095-8132-1dd005fbc631)
-    (property "Reference" "#PWR0115" (at 137.16 152.4 0)
+    (property "Reference" "#PWR0116" (at 137.16 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 149.86 0)
@@ -6540,7 +6540,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -6549,7 +6549,7 @@
   (symbol (lib_id "power:GND") (at 85.09 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b264e5ff-fe61-4f49-8f04-594d7ee9fb6f)
-    (property "Reference" "#PWR0140" (at 85.09 264.16 0)
+    (property "Reference" "#PWR0105" (at 85.09 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 261.62 0)
@@ -6565,7 +6565,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -6607,7 +6607,7 @@
   (symbol (lib_id "power:GND") (at 317.5 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b38e69ac-482b-46b1-a086-9c8422ef01dc)
-    (property "Reference" "#PWR0132" (at 317.5 166.37 0)
+    (property "Reference" "#PWR0157" (at 317.5 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 163.83 0)
@@ -6623,7 +6623,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -6632,7 +6632,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 234.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5a25932-9762-4512-81e9-6cf1538d8571)
-    (property "Reference" "C68" (at 38.1 227.33 0)
+    (property "Reference" "C38" (at 38.1 227.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 38.1 229.87 0)
@@ -6652,7 +6652,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C68") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -6661,7 +6661,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7d9fb8a-714e-48ce-9a70-0e919973e17c)
-    (property "Reference" "C57" (at 165.1 119.38 0)
+    (property "Reference" "C58" (at 165.1 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 165.1 121.92 0)
@@ -6681,7 +6681,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C57") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -6690,7 +6690,7 @@
   (symbol (lib_id "power:+3.3V") (at 217.17 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bad86609-326e-4dee-b3d0-cb5b2fe44e7e)
-    (property "Reference" "#PWR0153" (at 217.17 243.84 0)
+    (property "Reference" "#PWR0141" (at 217.17 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.98 237.49 0)
@@ -6706,7 +6706,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -6715,7 +6715,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 212.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c70b3e14-c5e5-49f6-9929-1c7298f429e2)
-    (property "Reference" "C75" (at 165.1 204.47 0)
+    (property "Reference" "C59" (at 165.1 204.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 165.1 207.01 0)
@@ -6735,7 +6735,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C75") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -6744,7 +6744,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c735a4b7-c122-4d31-a319-93f7a3a8bba1)
-    (property "Reference" "C37" (at 144.78 44.45 0)
+    (property "Reference" "C51" (at 144.78 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 144.78 46.99 0)
@@ -6764,7 +6764,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C37") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -6773,7 +6773,7 @@
   (symbol (lib_id "power:GND") (at 106.68 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c81fca74-c8dd-4d84-ae48-500b381b28fb)
-    (property "Reference" "#PWR0113" (at 106.68 166.37 0)
+    (property "Reference" "#PWR0109" (at 106.68 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 163.83 0)
@@ -6789,7 +6789,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -6798,7 +6798,7 @@
   (symbol (lib_id "power:GND") (at 295.91 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c87e4e85-d972-4a8c-ac5c-30bdfec10c94)
-    (property "Reference" "#PWR0130" (at 295.91 179.07 0)
+    (property "Reference" "#PWR0153" (at 295.91 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 176.53 0)
@@ -6814,7 +6814,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -6823,7 +6823,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 234.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8d3e4eb-04db-4822-b8cc-9cd9ac027604)
-    (property "Reference" "C74" (at 144.78 227.33 0)
+    (property "Reference" "C56" (at 144.78 227.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 144.78 229.87 0)
@@ -6843,7 +6843,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C74") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -6852,13 +6852,13 @@
   (symbol (lib_id "DRV8825PWPR:DRV8825PWPR") (at 67.31 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8f13ee3-c686-44c3-a07f-4a5488fc9b75)
-    (property "Reference" "IC6" (at 85.09 114.3 0)
+    (property "Reference" "IC4" (at 85.09 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8825PWPR" (at 85.09 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 99.06 216.84 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 99.06 216.84 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 99.06 316.84 0)
@@ -6911,7 +6911,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "IC6") (unit 1)
+          (reference "IC4") (unit 1)
         )
       )
     )
@@ -6920,7 +6920,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 248.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccc452e1-a521-4a18-9be3-e967365457f1)
-    (property "Reference" "R30" (at 143.51 247.65 0)
+    (property "Reference" "R23" (at 143.51 247.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 143.51 250.19 0)
@@ -6940,7 +6940,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R30") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -6949,7 +6949,7 @@
   (symbol (lib_id "power:GND") (at 241.3 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdd53021-9948-4a29-9a3a-d0824360829d)
-    (property "Reference" "#PWR095" (at 241.3 72.39 0)
+    (property "Reference" "#PWR0142" (at 241.3 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 69.85 0)
@@ -6965,7 +6965,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -6974,7 +6974,7 @@
   (symbol (lib_id "power:GND") (at 85.09 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce22b3a6-6980-4cb6-b063-c0909b050712)
-    (property "Reference" "#PWR075" (at 85.09 99.06 0)
+    (property "Reference" "#PWR0103" (at 85.09 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 96.52 0)
@@ -6990,7 +6990,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -6999,13 +6999,13 @@
   (symbol (lib_id "DRV8825PWPR:DRV8825PWPR") (at 173.99 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00d35d4-e4a7-4ef0-8267-399d2130cf38)
-    (property "Reference" "IC10" (at 191.77 199.39 0)
+    (property "Reference" "IC8" (at 191.77 199.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8825PWPR" (at 191.77 201.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 205.74 301.93 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 205.74 301.93 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 205.74 401.93 0)
@@ -7058,7 +7058,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "IC10") (unit 1)
+          (reference "IC8") (unit 1)
         )
       )
     )
@@ -7067,7 +7067,7 @@
   (symbol (lib_id "power:GND") (at 146.05 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3e4533b-c59c-4986-9c0b-7e718ba0b110)
-    (property "Reference" "#PWR088" (at 146.05 78.74 0)
+    (property "Reference" "#PWR0119" (at 146.05 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 76.2 0)
@@ -7083,7 +7083,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -7092,7 +7092,7 @@
   (symbol (lib_id "Device:R_Small") (at 252.73 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5cfd932-8f58-40b5-b1d0-a42d643a4c1e)
-    (property "Reference" "R24" (at 247.65 162.56 0)
+    (property "Reference" "R31" (at 247.65 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 247.65 165.1 0)
@@ -7112,7 +7112,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R24") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -7121,7 +7121,7 @@
   (symbol (lib_id "power:GND") (at 213.36 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6b06210-f327-4d9b-b72d-f0f7a3a5a74c)
-    (property "Reference" "#PWR0152" (at 213.36 251.46 0)
+    (property "Reference" "#PWR0138" (at 213.36 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 248.92 0)
@@ -7137,7 +7137,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -7146,7 +7146,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d761eec2-10c8-4a85-8a09-6573e96c0192)
-    (property "Reference" "C30" (at 63.5 35.56 0)
+    (property "Reference" "C42" (at 63.5 35.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 63.5 38.1 0)
@@ -7166,7 +7166,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C30") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -7208,7 +7208,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 77.47 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9fb6306-bbe8-4f6b-ac4a-35f56ca5a1a0)
-    (property "Reference" "C41" (at 207.01 77.47 0)
+    (property "Reference" "C63" (at 207.01 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 207.01 80.01 0)
@@ -7228,7 +7228,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C41") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -7237,7 +7237,7 @@
   (symbol (lib_id "Device:R_Small") (at 255.27 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dab43d8f-1f1c-480a-b68d-cc326405146d)
-    (property "Reference" "R16" (at 257.81 82.55 0)
+    (property "Reference" "R32" (at 257.81 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 257.81 85.09 0)
@@ -7257,7 +7257,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R16") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -7266,7 +7266,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd320804-315b-43ee-926b-49da556de193)
-    (property "Reference" "C38" (at 144.78 62.23 0)
+    (property "Reference" "C52" (at 144.78 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 144.78 64.77 0)
@@ -7286,7 +7286,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C38") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -7295,7 +7295,7 @@
   (symbol (lib_id "power:GND") (at 30.48 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e051854b-06e6-4048-a8e4-6ae892282603)
-    (property "Reference" "#PWR0134" (at 30.48 237.49 0)
+    (property "Reference" "#PWR090" (at 30.48 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 234.95 0)
@@ -7311,7 +7311,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -7320,7 +7320,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e07c37b5-38b1-4b24-91da-aafa04c53d64)
-    (property "Reference" "C61" (at 248.92 124.46 0)
+    (property "Reference" "C70" (at 248.92 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 248.92 127 0)
@@ -7340,7 +7340,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C61") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -7355,7 +7355,7 @@
     (property "Value" "DRV8825PWPR" (at 85.09 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 99.06 136.83 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 99.06 136.83 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 99.06 236.83 0)
@@ -7440,7 +7440,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C66") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -7449,7 +7449,7 @@
   (symbol (lib_id "Device:C_Small") (at 317.5 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e782c874-da7f-4695-ae80-d9418b70639e)
-    (property "Reference" "C65" (at 311.15 157.48 0)
+    (property "Reference" "C77" (at 311.15 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.47" (at 311.15 160.02 0)
@@ -7469,7 +7469,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C65") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
     )
@@ -7478,7 +7478,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8fe631a-6f5a-4a1c-9fa4-79d3ad39746a)
-    (property "Reference" "C50" (at 38.1 142.24 0)
+    (property "Reference" "C36" (at 38.1 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 38.1 144.78 0)
@@ -7498,7 +7498,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C50") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -7507,7 +7507,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 49.53 195.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec1e5d58-5093-4815-94d0-87904b063c5d)
-    (property "Reference" "J20" (at 62.23 195.58 90)
+    (property "Reference" "J18" (at 62.23 195.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "216548-1" (at 36.83 195.58 90)
@@ -7531,7 +7531,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "J20") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -7563,7 +7563,7 @@
           (reference "C2") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C36") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -7572,13 +7572,13 @@
   (symbol (lib_id "DRV8825PWPR:DRV8825PWPR") (at 173.99 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f117b944-aeda-455b-b53d-6ce5e004aa41)
-    (property "Reference" "IC4" (at 191.77 34.29 0)
+    (property "Reference" "IC6" (at 191.77 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8825PWPR" (at 191.77 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 205.74 136.83 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 205.74 136.83 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 205.74 236.83 0)
@@ -7631,7 +7631,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "IC4") (unit 1)
+          (reference "IC6") (unit 1)
         )
       )
     )
@@ -7640,7 +7640,7 @@
   (symbol (lib_id "power:GND") (at 146.05 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f441c4c6-3858-4301-882a-74c229b12461)
-    (property "Reference" "#PWR087" (at 146.05 60.96 0)
+    (property "Reference" "#PWR0118" (at 146.05 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 58.42 0)
@@ -7656,7 +7656,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -7665,7 +7665,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f49759bf-83c4-461e-9954-2b69d3945f0f)
-    (property "Reference" "R8" (at 46.99 82.55 0)
+    (property "Reference" "R15" (at 46.99 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 46.99 85.09 0)
@@ -7685,7 +7685,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R8") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -7694,7 +7694,7 @@
   (symbol (lib_id "power:GND") (at 213.36 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5579b6b-afea-4105-bba3-681f72db44ba)
-    (property "Reference" "#PWR0122" (at 213.36 166.37 0)
+    (property "Reference" "#PWR0136" (at 213.36 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 163.83 0)
@@ -7710,7 +7710,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -7719,7 +7719,7 @@
   (symbol (lib_id "power:GND") (at 41.91 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f57eddea-2227-4b9e-99c8-f37cfe24333a)
-    (property "Reference" "#PWR0108" (at 41.91 172.72 0)
+    (property "Reference" "#PWR098" (at 41.91 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 170.18 0)
@@ -7735,7 +7735,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -7744,7 +7744,7 @@
   (symbol (lib_id "power:GND") (at 317.5 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6f4dfe1-cf08-4fb5-af5e-5350b30c1540)
-    (property "Reference" "#PWR0103" (at 317.5 86.36 0)
+    (property "Reference" "#PWR0155" (at 317.5 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 83.82 0)
@@ -7760,7 +7760,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -7769,7 +7769,7 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 248.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8670e06-428d-4042-b6c1-6f0df1985122)
-    (property "Reference" "R27" (at 36.83 247.65 0)
+    (property "Reference" "R14" (at 36.83 247.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 36.83 250.19 0)
@@ -7789,7 +7789,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "R27") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -7798,13 +7798,13 @@
   (symbol (lib_id "DRV8825PWPR:DRV8825PWPR") (at 278.13 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f934222f-7e0f-4d6b-970e-fad9cdb9e96b)
-    (property "Reference" "IC8" (at 295.91 114.3 0)
+    (property "Reference" "IC10" (at 295.91 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8825PWPR" (at 295.91 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 309.88 216.84 0)
+    (property "Footprint" "Motor_controller_DRV8825PWPR:SOP65P640X120-29N" (at 309.88 216.84 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/drv8825" (at 309.88 316.84 0)
@@ -7857,7 +7857,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "IC8") (unit 1)
+          (reference "IC10") (unit 1)
         )
       )
     )
@@ -7866,7 +7866,7 @@
   (symbol (lib_id "power:GND") (at 106.68 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9400716-1a50-4a1d-8c0e-01be8c33a126)
-    (property "Reference" "#PWR079" (at 106.68 86.36 0)
+    (property "Reference" "#PWR0107" (at 106.68 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 83.82 0)
@@ -7882,7 +7882,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -7891,7 +7891,7 @@
   (symbol (lib_id "power:GND") (at 148.59 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb1181d6-40f8-42de-acf1-7029281bbc76)
-    (property "Reference" "#PWR0147" (at 148.59 257.81 0)
+    (property "Reference" "#PWR0126" (at 148.59 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 255.27 0)
@@ -7907,7 +7907,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -7916,7 +7916,7 @@
   (symbol (lib_id "power:GND") (at 146.05 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb171936-c44a-4c83-a01c-f87e27cf9a04)
-    (property "Reference" "#PWR0116" (at 146.05 140.97 0)
+    (property "Reference" "#PWR0120" (at 146.05 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 138.43 0)
@@ -7932,7 +7932,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -7941,7 +7941,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 217.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb319b5e-b675-4fc8-a8cd-8b5916fe6f34)
-    (property "Reference" "C67" (at 38.1 209.55 0)
+    (property "Reference" "C37" (at 38.1 209.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 38.1 212.09 0)
@@ -7961,7 +7961,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C67") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -7970,7 +7970,7 @@
   (symbol (lib_id "Device:C_Small") (at 171.45 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe30ab2e-b4af-4ab6-8b67-30623297a7ee)
-    (property "Reference" "C40" (at 170.18 35.56 0)
+    (property "Reference" "C60" (at 170.18 35.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.01u" (at 170.18 38.1 0)
@@ -7990,7 +7990,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "C40") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -7999,7 +7999,7 @@
   (symbol (lib_id "power:+3.3V") (at 110.49 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffe51d51-5e60-44c2-9abe-168b3a3271cf)
-    (property "Reference" "#PWR0114" (at 110.49 158.75 0)
+    (property "Reference" "#PWR0113" (at 110.49 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 114.3 152.4 0)
@@ -8015,7 +8015,7 @@
     (instances
       (project "AOML_AB_3.0"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/993c7384-b42e-413b-9298-e0d645509092"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
