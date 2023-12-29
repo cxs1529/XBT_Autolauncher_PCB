@@ -442,7 +442,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "routing/AOML_AB_3.0_routing2.dsn",
       "step": "",
       "vrml": ""
     },
