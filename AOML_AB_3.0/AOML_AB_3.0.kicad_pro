@@ -173,9 +173,12 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.3,
         0.45,
-        0.6
+        0.6,
+        1.2,
+        1.4
       ],
       "via_dimensions": [
         {
@@ -183,8 +186,24 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.6,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.45
+        },
+        {
           "diameter": 0.9,
           "drill": 0.45
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.6
+        },
+        {
+          "diameter": 1.4,
+          "drill": 1.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -447,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "routing/AOML_AB_3.0_routing3-gndPlaneTest.dsn",
+      "specctra_dsn": "routing/AOML_AB_3.0_routing6_noRoutes.dsn",
       "step": "",
       "vrml": ""
     },
