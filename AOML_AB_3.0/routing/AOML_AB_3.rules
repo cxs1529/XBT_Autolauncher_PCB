@@ -1,0 +1,129 @@
+
+(rules PCB AOML_AB_3
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 50)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 200.2)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.2 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_900:450_um"
+    (shape
+      (circle F.Cu 900.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 900.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_900:450_um" "Via[0-1]_900:450_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_900:450_um-kicad_default" "Via[0-1]_900:450_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND /+19.5V +12V +5V +3.3V "Net-(SW1-A)" "Net-(U4-C1+)" "Net-(U4-C1-)"
+    "Net-(U6-PD0)" "Net-(U4-C2+)" "Net-(U4-C2-)" "Net-(U6-PD1)" "Net-(U4-VS-)" "Net-(U4-VS+)" "Vmotor_out" "Net-(IC3-VCP)"
+    "Net-(IC3-CP2)" "Net-(IC3-CP1)" "Net-(J7-Pin_1)" "Net-(IC4-VCP)" "Net-(IC4-CP2)" "Net-(IC4-CP1)" "Net-(IC5-VCP)" "Net-(IC5-CP2)"
+    "Net-(IC5-CP1)" "Net-(IC6-VCP)" "Net-(IC6-CP2)" "Net-(IC6-CP1)" "Net-(IC7-VCP)" "Net-(IC7-CP2)" "Net-(IC7-CP1)" "Net-(IC8-VCP)"
+    "Net-(IC8-CP2)" "Net-(IC8-CP1)" "Net-(IC9-VCP)" "Net-(IC9-CP2)" "Net-(IC9-CP1)" "Net-(IC10-VCP)" "Net-(IC10-CP2)" "Net-(IC10-CP1)"
+    "Net-(U6-PC0)" "/+19.5V_raw" "Net-(U6-PC1)" "Net-(IC1-Q4)" "Net-(IC1-Q1)" /RelayControl/Reset1 "SSR_xbt1" "SSR_xbt4"
+    "Net-(IC1-Q2)" "Net-(IC1-Q3)" "SSR_xbt3" "unconnected-(IC1-NC-Pad13)" "SSR_xbt2" "Net-(IC2-Q4)" "Net-(IC2-Q1)" /RelayControl/Reset2
+    "SSR_xbt5" "SSR_xbt8" "Net-(IC2-Q2)" "Net-(IC2-Q3)" "SSR_xbt7" "unconnected-(IC2-NC-Pad13)" "SSR_xbt6" "Net-(IC3-AOUT1)"
+    "Net-(IC3-ISENA)" "Net-(IC3-AOUT2)" "Net-(IC3-BOUT2)" "Net-(IC3-ISENB)" "Net-(IC3-BOUT1)" /MotorControl/Vref "unconnected-(IC3-NFAULT-Pad18)" "unconnected-(IC3-DECAY-Pad19)"
+    DIR "Enable_M1" STEP "unconnected-(IC3-NC-Pad23)" "/MotorControl/Mode_0" "/MotorControl/Mode_1" "/MotorControl/Mode_2" "unconnected-(IC3-NHOME-Pad27)"
+    "Net-(IC4-AOUT1)" "Net-(IC4-ISENA)" "Net-(IC4-AOUT2)" "Net-(IC4-BOUT2)" "Net-(IC4-ISENB)" "Net-(IC4-BOUT1)" "unconnected-(IC4-NFAULT-Pad18)" "unconnected-(IC4-DECAY-Pad19)"
+    "Enable_M2" "unconnected-(IC4-NC-Pad23)" "unconnected-(IC4-NHOME-Pad27)" "Net-(IC5-AOUT1)" "Net-(IC5-ISENA)" "Net-(IC5-AOUT2)" "Net-(IC5-BOUT2)" "Net-(IC5-ISENB)"
+    "Net-(IC5-BOUT1)" "unconnected-(IC5-NFAULT-Pad18)" "unconnected-(IC5-DECAY-Pad19)" "Enable_M3" "unconnected-(IC5-NC-Pad23)" "unconnected-(IC5-NHOME-Pad27)" "Net-(IC6-AOUT1)" "Net-(IC6-ISENA)"
+    "Net-(IC6-AOUT2)" "Net-(IC6-BOUT2)" "Net-(IC6-ISENB)" "Net-(IC6-BOUT1)" "unconnected-(IC6-NFAULT-Pad18)" "unconnected-(IC6-DECAY-Pad19)" "Enable_M4" "unconnected-(IC6-NC-Pad23)"
+    "unconnected-(IC6-NHOME-Pad27)" "Net-(IC7-AOUT1)" "Net-(IC7-ISENA)" "Net-(IC7-AOUT2)" "Net-(IC7-BOUT2)" "Net-(IC7-ISENB)" "Net-(IC7-BOUT1)" "unconnected-(IC7-NFAULT-Pad18)"
+    "unconnected-(IC7-DECAY-Pad19)" "Enable_M5" "unconnected-(IC7-NC-Pad23)" "unconnected-(IC7-NHOME-Pad27)" "Net-(IC8-AOUT1)" "Net-(IC8-ISENA)" "Net-(IC8-AOUT2)" "Net-(IC8-BOUT2)"
+    "Net-(IC8-ISENB)" "Net-(IC8-BOUT1)" "unconnected-(IC8-NFAULT-Pad18)" "unconnected-(IC8-DECAY-Pad19)" "Enable_M6" "unconnected-(IC8-NC-Pad23)" "unconnected-(IC8-NHOME-Pad27)" "Net-(IC9-AOUT1)"
+    "Net-(IC9-ISENA)" "Net-(IC9-AOUT2)" "Net-(IC9-BOUT2)" "Net-(IC9-ISENB)" "Net-(IC9-BOUT1)" "unconnected-(IC9-NFAULT-Pad18)" "unconnected-(IC9-DECAY-Pad19)" "Enable_M7"
+    "unconnected-(IC9-NC-Pad23)" "unconnected-(IC9-NHOME-Pad27)" "Net-(IC10-AOUT1)" "Net-(IC10-ISENA)" "Net-(IC10-AOUT2)" "Net-(IC10-BOUT2)" "Net-(IC10-ISENB)" "Net-(IC10-BOUT1)"
+    "unconnected-(IC10-NFAULT-Pad18)" "unconnected-(IC10-DECAY-Pad19)" "Enable_M8" "unconnected-(IC10-NC-Pad23)" "unconnected-(IC10-NHOME-Pad27)" "xbt_B" "/Dout_toComputer" "xbt_C"
+    "/Din_fromComputer" "xbt_A" /SWDIO /SWCLK "Net-(J3-Pin_3)" "/UART3_TX" "/RelayControl/XBT1_A" "/RelayControl/XBT1_B"
+    "/RelayControl/XBT1_C" "/RelayControl/XBT2_A" "/RelayControl/XBT2_B" "/RelayControl/XBT2_C" "/RelayControl/XBT3_A" "/RelayControl/XBT3_B" "/RelayControl/XBT3_C" "/RelayControl/XBT4_A"
+    "/RelayControl/XBT4_B" "/RelayControl/XBT4_C" "/RelayControl/XBT5_A" "/RelayControl/XBT5_B" "/RelayControl/XBT5_C" "/RelayControl/XBT6_A" "/RelayControl/XBT6_B" "/RelayControl/XBT6_C"
+    "/RelayControl/XBT7_A" "/RelayControl/XBT7_B" "/RelayControl/XBT7_C" "/RelayControl/XBT8_A" "/RelayControl/XBT8_B" "/RelayControl/XBT8_C" "/I2C1_SDA" "/I2C1_SCL"
+    "Net-(J5-Pin_1)" "Net-(J6-Pin_2)" "unconnected-(J16-Pin_3-Pad3)" "unconnected-(J16-Pin_6-Pad6)" "unconnected-(J17-Pin_3-Pad3)" "unconnected-(J17-Pin_6-Pad6)" "unconnected-(J18-Pin_3-Pad3)" "unconnected-(J18-Pin_6-Pad6)"
+    "unconnected-(J19-Pin_3-Pad3)" "unconnected-(J19-Pin_6-Pad6)" "unconnected-(J20-Pin_3-Pad3)" "unconnected-(J20-Pin_6-Pad6)" "unconnected-(J21-Pin_3-Pad3)" "unconnected-(J21-Pin_6-Pad6)" "unconnected-(J22-Pin_3-Pad3)" "unconnected-(J22-Pin_6-Pad6)"
+    "unconnected-(J23-Pin_3-Pad3)" "unconnected-(J23-Pin_6-Pad6)" "/Dout_toGPS" "/Din_fromGPS" "Net-(JP1-A)" "Net-(JP2-C)" "Net-(JP6-B)" "Net-(JP7-B)"
+    "Net-(JP8-A)" "Net-(JP8-B)" "Net-(JP4-B)" "Net-(JP5-B)" "Net-(JP6-A)" "Net-(JP7-A)" "unconnected-(K1-NC_1-Pad3)" "Net-(K1--_1)"
+    "unconnected-(K1-NC_2-Pad10)" "unconnected-(K2-NC_1-Pad3)" "Net-(K2--_1)" "unconnected-(K2-NC_2-Pad10)" "unconnected-(K3-NC_1-Pad3)" "Net-(K3--_1)" "unconnected-(K3-NC_2-Pad10)" "unconnected-(K4-NC_1-Pad3)"
+    "Net-(K4--_1)" "unconnected-(K4-NC_2-Pad10)" "Net-(K12--_1)" /RelayControl/Reset3 "unconnected-(K6-NC_1-Pad3)" "Net-(K6-NO_1)" "Net-(K6--_1)" "unconnected-(K6-NC_2-Pad10)"
+    "unconnected-(K7-NC_1-Pad3)" "Net-(K7-NO_1)" "Net-(K7--_1)" "unconnected-(K7-NO_2-Pad8)" "unconnected-(K7-COM_2-Pad9)" "unconnected-(K7-NC_2-Pad10)" "unconnected-(K8-NC_1-Pad3)" "Net-(K8--_1)"
+    "unconnected-(K8-NC_2-Pad10)" "unconnected-(K9-NC_1-Pad3)" "Net-(K9--_1)" "unconnected-(K9-NC_2-Pad10)" "unconnected-(K10-NC_1-Pad3)" "Net-(K10--_1)" "unconnected-(K10-NC_2-Pad10)" "unconnected-(K11-NC_1-Pad3)"
+    "Net-(K11--_1)" "unconnected-(K11-NC_2-Pad10)" "unconnected-(K12-NC_1-Pad3)" "unconnected-(K12-COM_1-Pad4)" "unconnected-(K12-NO_1-Pad5)" "Net-(U6-BOOT0)" "/UART3_RX" "relay_xbt8"
+    "relay_xbt7" "relay_xbt6" "relay_xbt5" "relay_xbt4" "relay_xbt3" "relay_xbt2" "relay_xbt1" "Net-(JP11-B)"
+    "Net-(JP9-A)" "relay_reset3" "relay_reset2" "relay_reset1" "relay_cal_res" "relay_cal_cont" "relay_gnd_cond" "/UART2_TX"
+    "/UART2_RX" "/UART1_TX" "/UART1_RX" "/free_pc5" "Net-(D4-K)" "Net-(D5-K)" "Net-(D6-K)" "Net-(JP10-A)"
+    /VDDA "Net-(R36-Pad1)" "Net-(R37-Pad1)" "Net-(R38-Pad1)" "Net-(R39-Pad1)" "Net-(R40-Pad1)" "Net-(R41-Pad1)" "Net-(R42-Pad1)"
+    "Net-(R43-Pad1)" "unconnected-(RN3-R1-Pad2)" "Net-(J24-Pin_3)" "Net-(J24-Pin_4)" "Net-(J24-Pin_5)" "unconnected-(RN1-R8-Pad9)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

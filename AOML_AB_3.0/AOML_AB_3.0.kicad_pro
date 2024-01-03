@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -174,12 +174,17 @@
       "track_widths": [
         0.0,
         0.3,
+        0.45,
         0.6
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -442,7 +447,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "routing/AOML_AB_3.0_routing2.dsn",
+      "specctra_dsn": "routing/AOML_AB_3.0_routing3-gndPlaneTest.dsn",
       "step": "",
       "vrml": ""
     },
