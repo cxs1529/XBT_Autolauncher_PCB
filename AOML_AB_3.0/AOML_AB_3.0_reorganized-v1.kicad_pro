@@ -187,8 +187,16 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.7,
           "drill": 0.4
+        },
+        {
+          "diameter": 0.75,
+          "drill": 0.45
         },
         {
           "diameter": 0.9,
@@ -467,7 +475,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "routing/AOML_AB_3.0_routing12_pre-routed.dsn",
+      "specctra_dsn": "routing/AOML_AB_3.0_routing13_drv8825reorganized.dsn",
       "step": "",
       "vrml": ""
     },
