@@ -50,4 +50,5 @@
   (lib (name "Resistor_network_x4_10k-1204")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/YC164_JR_1310KL")(options "")(descr ""))
   (lib (name "LED_green_0603")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/B1911PG__20D000514U1930/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Crystal_8MHZ_smt")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/ABLS_8_000MHZ_20_B_3_H_T")(options "")(descr ""))
+  (lib (name "Images_logos")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/Images_logos")(options "")(descr ""))
 )
