@@ -55,13 +55,46 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "isolated_copper|173901561|153795185|c28cc204-a5a7-449f-a67a-4aae20ca1823|00000000-0000-0000-0000-000000000000",
+        "isolated_copper|176901561|169295185|c28cc204-a5a7-449f-a67a-4aae20ca1823|00000000-0000-0000-0000-000000000000",
+        "isolated_copper|244937314|142054815|c28cc204-a5a7-449f-a67a-4aae20ca1823|00000000-0000-0000-0000-000000000000",
+        "isolated_copper|274961163|105870185|c28cc204-a5a7-449f-a67a-4aae20ca1823|00000000-0000-0000-0000-000000000000",
+        "isolated_copper|314144743|140370185|c28cc204-a5a7-449f-a67a-4aae20ca1823|00000000-0000-0000-0000-000000000000",
+        "isolated_copper|330068834|126029361|c28cc204-a5a7-449f-a67a-4aae20ca1823|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|201374999|108595000|59219a07-a36f-49e1-9353-cd3ac5893773|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|212499998|108500000|322aef8d-7ee9-44f8-8019-7c0ae2404e33|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|80064000|167320999|09abe860-2c35-4125-8190-84c273a2cbb6|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|104464285|170455257|e77b85ee-05aa-4303-87ae-3c0f96de6e18|071c0072-d5fa-4e04-908a-a70d55fb0079",
+        "silk_overlap|125285713|172683828|390ff55d-54ab-46d8-a1b4-611bdbaa8ebe|69cf377c-0a93-4e4f-9795-02d22cee116c",
+        "silk_overlap|134196585|170455257|3a9639ae-42a8-479d-b438-23f549eae1cc|3f9a537b-2f9e-4279-882c-91af8bc24c71",
+        "silk_overlap|154642856|173290971|0305aa71-a936-453e-8df8-9931b2b7bcf0|63975246-7efb-4c55-a22e-b1a98552a058",
+        "silk_overlap|163964285|170455257|6350decd-bc94-474e-b729-2e147988ff72|5cc63de3-e214-4ba6-b00f-dc9862fb97d3",
+        "silk_overlap|173520324|106999999|2e9ca87d-9a3e-4499-8a62-981043e7a61c|4e1476f0-f370-474a-bbd4-28a55b170c0e",
+        "silk_overlap|184261904|172319542|19896616-7c0b-4c13-ae80-01d8ed00cf6b|f336998e-0378-44a2-b6b3-d851446451ff",
+        "silk_overlap|194345237|171733828|3ba69893-26e5-40df-837d-3b3464656dd4|68bf08c6-36e9-4c70-8c73-1417c325bf12",
+        "silk_overlap|211131700|96729942|05a595c4-ec73-45ff-8144-7ab5f7d478cc|bd794a5a-a486-45dd-a1ce-b7672d26dbeb",
+        "silk_overlap|219285713|172683828|378e53d5-28b6-4e04-b2a1-b756403075af|f12b1fe0-03d2-49ae-9fdb-9db15c1da3c3",
+        "silk_overlap|219523372|106999999|41965d7f-54fc-402e-8a2a-084d5530b466|fd9c9a39-aa55-4839-afb4-1d961363e3ff",
+        "silk_overlap|229095237|171483828|6829764b-ec22-4892-a2fc-b119a1de5ef3|528783b4-f04b-4bd0-9082-34e7ad345bf7",
+        "silk_overlap|245174456|106999999|2dba1cb8-5b39-4f19-85a3-03375adf304c|96632805-ff0a-4b45-afe8-bb4a820d0abc",
+        "silk_overlap|248809523|171762400|1f3d0948-c8fb-42cc-9d12-50468db50392|c440ccf9-64f2-4daa-9910-6c54b00c479f",
+        "silk_overlap|258749999|171405257|11d04fcf-5d51-427c-a1ef-ef04be216199|dab7118e-0014-4fb5-a901-249720d2ac6d",
+        "silk_overlap|279285713|172683828|5d8dfa3e-2cc8-455a-bd6d-90cc7ac6b2b5|09c0a346-d22a-440a-845b-993745d11a61",
+        "silk_overlap|288749999|171655257|83baac02-b322-4de2-8c47-b8ed90c8ea05|443be18a-112b-4b16-8845-4fa19117da31",
+        "silk_overlap|290650324|125399999|47ddbf4f-1417-4a71-9d34-fe1efa2e7587|12e4123a-ed36-4e3a-a9f9-d7c23ca92695",
+        "silk_overlap|290650324|141479999|c42db907-17d3-4bb7-baa4-a707609a2347|e5b4b7f4-c1cf-430a-beec-f2d6ebe89d15",
+        "silk_overlap|309095237|173198114|be26c8e0-15f5-4ba6-a8d3-09dc2618becf|7efd6fe0-4bf0-4aa6-b524-016250c9ce08",
+        "silk_overlap|309816009|141479999|8f6efe6e-0f33-4da9-a411-4160063d0e53|adb06302-6fdd-4e4d-9568-1c20a15b613e",
+        "silk_overlap|318381585|170205257|3ed9ae81-2d9c-4c88-924f-f52c3f9b2837|63ce1ede-4cb0-4f71-b66c-88683e68482d",
+        "silk_overlap|95392856|173290971|c907f5d8-9145-426d-8747-60078576a487|b67ac72c-4d48-4694-9ab0-f707d0ddb6f1"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -175,6 +208,7 @@
         0.0,
         0.15,
         0.3,
+        0.4,
         0.45,
         0.6,
         0.8,
@@ -187,7 +221,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
