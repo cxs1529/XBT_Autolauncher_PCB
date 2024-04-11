@@ -1718,10 +1718,6 @@
     (stroke (width 0) (type default))
     (uuid 07e65b58-9d4d-48b1-bf22-5143bd373c20)
   )
-  (wire (pts (xy 226.06 24.13) (xy 226.06 25.4))
-    (stroke (width 0) (type default))
-    (uuid 0bb16063-b751-47d2-8597-652d18a91a0e)
-  )
   (wire (pts (xy 396.24 59.69) (xy 396.24 81.28))
     (stroke (width 0) (type default))
     (uuid 0be9a962-914a-4b3a-974c-d8f55af81b10)
@@ -2262,6 +2258,10 @@
     (stroke (width 0) (type default))
     (uuid 70a31d25-fb09-403b-bafe-52a48ab9f48c)
   )
+  (wire (pts (xy 231.14 24.13) (xy 231.14 25.4))
+    (stroke (width 0) (type default))
+    (uuid 72df318c-5885-4289-9fc6-1e323a894831)
+  )
   (wire (pts (xy 212.09 186.69) (xy 219.71 186.69))
     (stroke (width 0) (type default))
     (uuid 72f0a43c-0381-4e72-9d35-ada6aee2b599)
@@ -2606,10 +2606,6 @@
     (stroke (width 0) (type default))
     (uuid b70821ad-1f27-4acb-8ade-6417b8304283)
   )
-  (wire (pts (xy 231.14 24.13) (xy 231.14 25.4))
-    (stroke (width 0) (type default))
-    (uuid b7c4d535-ac6a-4169-8445-523cb0b405cd)
-  )
   (wire (pts (xy 288.29 201.93) (xy 288.29 210.82))
     (stroke (width 0) (type default))
     (uuid b7f373e9-26a6-420d-b49b-5a18b3b7b4e0)
@@ -2641,6 +2637,10 @@
   (wire (pts (xy 396.24 146.05) (xy 396.24 167.64))
     (stroke (width 0) (type default))
     (uuid bf54534c-8053-4b14-919d-79cad04d90b4)
+  )
+  (wire (pts (xy 226.06 24.13) (xy 226.06 25.4))
+    (stroke (width 0) (type default))
+    (uuid bfed1cea-3a9b-4fe9-b03e-264cc0c208f7)
   )
   (wire (pts (xy 345.44 189.23) (xy 345.44 199.39))
     (stroke (width 0) (type default))
@@ -3225,11 +3225,11 @@
     (uuid fec429be-8f65-4523-ab49-4238d9aef0cb)
   )
 
-  (label "XBT3_A" (at 226.06 41.91 270) (fields_autoplaced)
+  (label "XBT3_C" (at 226.06 41.91 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 013945c7-c3a9-4ec2-9da2-e80894220e6d)
   )
-  (label "XBT4_C" (at 257.81 41.91 270) (fields_autoplaced)
+  (label "XBT4_A" (at 257.81 41.91 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 017942eb-543f-4a6a-92d5-9874a72e9f12)
   )
@@ -3245,7 +3245,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e142427-ac03-48a0-87e6-c6f0d624630f)
   )
-  (label "XBT7_A" (at 226.06 73.66 270) (fields_autoplaced)
+  (label "XBT7_C" (at 226.06 73.66 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0f4f1fc5-0754-4c0b-913f-f84dec76fd86)
   )
@@ -3253,7 +3253,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15c0bffa-844d-4810-a5f2-1fd1492ed832)
   )
-  (label "XBT7_C" (at 231.14 73.66 270) (fields_autoplaced)
+  (label "XBT7_A" (at 231.14 73.66 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1702a237-a932-4455-ba97-fba65f9514b1)
   )
@@ -3285,7 +3285,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f5dca32-020a-4f62-b362-ef7528cd84a4)
   )
-  (label "XBT8_A" (at 252.73 73.66 270) (fields_autoplaced)
+  (label "XBT8_C" (at 252.73 73.66 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 423e98b9-4c2e-455b-9cdf-e722bc70b83d)
   )
@@ -3305,11 +3305,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 543e780f-ddf9-49b4-a114-0f849a3e6950)
   )
-  (label "XBT4_A" (at 252.73 41.91 270) (fields_autoplaced)
+  (label "XBT4_C" (at 252.73 41.91 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 55503b8a-57b2-433f-a824-6357bb5789be)
   )
-  (label "XBT5_A" (at 226.06 57.15 270) (fields_autoplaced)
+  (label "XBT5_C" (at 226.06 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 56288111-5e57-477d-b676-0657ebbd8369)
   )
@@ -3329,15 +3329,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 77ab5216-6c70-4855-9a9f-179b4574ba14)
   )
-  (label "XBT8_C" (at 257.81 73.66 270) (fields_autoplaced)
+  (label "XBT8_A" (at 257.81 73.66 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7d5af9d5-df95-4bb5-922c-30378808c726)
   )
-  (label "XBT2_A" (at 252.73 24.13 270) (fields_autoplaced)
+  (label "XBT2_C" (at 252.73 24.13 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7dd5be1a-08eb-43e3-9f19-e3bdb6878063)
   )
-  (label "XBT1_A" (at 226.06 25.4 270) (fields_autoplaced)
+  (label "XBT1_A" (at 231.14 25.4 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f9963f7-80cb-4ea1-8b5e-69f40fd6ccb4)
   )
@@ -3353,7 +3353,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 98d4e8f0-c134-4dfb-9330-9f951a915fe4)
   )
-  (label "XBT2_C" (at 257.81 24.13 270) (fields_autoplaced)
+  (label "XBT2_A" (at 257.81 24.13 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9b678082-ff7b-42c7-8ce5-2ca6f50f0797)
   )
@@ -3365,7 +3365,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9d24a873-68f2-4a18-844e-33be2b08d899)
   )
-  (label "XBT3_C" (at 231.14 41.91 270) (fields_autoplaced)
+  (label "XBT3_A" (at 231.14 41.91 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9fa8ffda-812b-4866-af28-64e318cfe157)
   )
@@ -3397,7 +3397,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d318e7a5-7a99-4392-843f-c7b127e4d35a)
   )
-  (label "XBT6_C" (at 257.81 57.15 270) (fields_autoplaced)
+  (label "XBT6_A" (at 257.81 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d43a1ffc-fe89-499d-b1db-fa137c27236b)
   )
@@ -3409,7 +3409,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid db827e64-661a-48e5-8006-feb41504f5dd)
   )
-  (label "XBT5_C" (at 231.14 57.15 270) (fields_autoplaced)
+  (label "XBT5_A" (at 231.14 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e1d885f3-745e-47a4-a22e-26cb991bb55e)
   )
@@ -3417,7 +3417,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e63978e4-232e-4d60-9a63-3648fac68b15)
   )
-  (label "XBT6_A" (at 252.73 57.15 270) (fields_autoplaced)
+  (label "XBT6_C" (at 252.73 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e7e59f87-1d37-4a99-b4cc-9c933628457e)
   )
@@ -3433,7 +3433,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f0bfbf4d-8984-4f91-904b-b89e13f9d6f8)
   )
-  (label "XBT1_C" (at 231.14 25.4 270) (fields_autoplaced)
+  (label "XBT1_C" (at 226.06 25.4 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f6c27877-e2bd-45f4-beea-bb5c48acf18f)
   )
@@ -3668,7 +3668,7 @@
     (pin "4" (uuid fcffcd90-0700-4ce2-8b69-fe7057c5b444))
     (pin "6" (uuid c45b9835-de5d-4302-b2bf-572ed22ef3f3))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U14") (unit 1)
         )
@@ -3693,7 +3693,7 @@
     )
     (pin "1" (uuid 5e25d094-bf0c-4ccf-919d-5a4afa3621dd))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "#PWR046") (unit 1)
         )
@@ -3721,7 +3721,7 @@
     )
     (pin "1" (uuid e5600e67-337f-4797-b9d5-0ee790f10778))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR060") (unit 1)
         )
@@ -3746,7 +3746,7 @@
     )
     (pin "1" (uuid 53b2328f-a628-482b-87ba-7b3b15dac548))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR084") (unit 1)
         )
@@ -3771,7 +3771,7 @@
     )
     (pin "1" (uuid 246c28f0-a3e1-46ea-b632-1e90b4f21d39))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR067") (unit 1)
         )
@@ -3796,7 +3796,7 @@
     )
     (pin "1" (uuid 0c55368c-4e13-4b2b-8aa2-849f6e08fbed))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0164") (unit 1)
         )
@@ -3845,7 +3845,7 @@
     (pin "8" (uuid 15e82afd-dc95-48ff-b930-f80f35233520))
     (pin "9" (uuid 6711ef82-5a0c-4453-9e2b-e295f68f4b56))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "U5") (unit 1)
         )
@@ -3885,7 +3885,7 @@
     (pin "4" (uuid 4e693efe-3517-49af-bd3d-344ed14b1198))
     (pin "6" (uuid df47c51c-35d4-4f9e-a13e-a0912a1e0198))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U12") (unit 1)
         )
@@ -3902,26 +3902,26 @@
     (property "Value" "Conn_01x03" (at 233.68 20.32 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 228.6 19.05 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 228.6 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 228.6 19.05 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 228.6 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 228.6 19.05 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 228.6 19.05 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 228.6 19.05 0)
+    (property "Cost" "0.58" (at 228.6 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 228.6 19.05 0)
+    (property "Part" "TBP02R2-381-03BE" (at 228.6 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 93b0c7a4-83c1-4206-923a-160409d51b9f))
     (pin "2" (uuid 6e8957cd-858d-463d-8814-7222aa2186b6))
     (pin "3" (uuid 3a4740ff-d3cb-4264-9c82-cd6b085f278d))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
@@ -3949,7 +3949,7 @@
     )
     (pin "1" (uuid e3a02af1-71f5-4d2b-b70f-f3ab05fc4e48))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR053") (unit 1)
         )
@@ -3992,7 +3992,7 @@
     (pin "8" (uuid d578c0dd-f791-40e0-bfca-8c08c386ff59))
     (pin "9" (uuid 3092f3e6-2f8f-4d6d-a678-a3e5e5c56c3e))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K4") (unit 1)
         )
@@ -4020,7 +4020,7 @@
     )
     (pin "1" (uuid 90528625-aa3c-4d9c-9b9f-c62dcc87b2c6))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR086") (unit 1)
         )
@@ -4045,7 +4045,7 @@
     )
     (pin "1" (uuid 923451aa-54ed-437b-a00d-a5501f72f2b2))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR052") (unit 1)
         )
@@ -4088,7 +4088,7 @@
     (pin "8" (uuid 95f9d07b-7395-4113-ac65-d29fb8a593c8))
     (pin "9" (uuid da82e59d-0a0a-48e0-8e24-63a8ce199d7a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K11") (unit 1)
         )
@@ -4116,7 +4116,7 @@
     )
     (pin "1" (uuid 54e65308-295a-48e0-a3bf-96af296fadc4))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR061") (unit 1)
         )
@@ -4165,7 +4165,7 @@
     (pin "8" (uuid 951fffbd-2729-4cf7-8397-5c4a28c4ebea))
     (pin "9" (uuid 93161775-1d0c-42e6-a675-9bf544fc39d2))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "IC1") (unit 1)
         )
@@ -4202,7 +4202,7 @@
     (pin "4" (uuid ee71840b-5f6c-49c0-8241-7487dc96bcb3))
     (pin "6" (uuid b128d152-f072-4024-b20e-c52688fcc288))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U13") (unit 1)
         )
@@ -4227,7 +4227,7 @@
     )
     (pin "1" (uuid 5677e8d9-6bee-43a7-ba9c-5ea75799569b))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR087") (unit 1)
         )
@@ -4260,7 +4260,7 @@
     (pin "2" (uuid fe95e3ad-3fd3-43d4-9ecf-a99fc7902792))
     (pin "3" (uuid 3fb5b87a-0b47-4efc-82c2-6d67707f9ae6))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "JP8") (unit 1)
         )
@@ -4309,7 +4309,7 @@
     (pin "8" (uuid 117c7e77-158a-43c8-8ef5-575f7631271c))
     (pin "9" (uuid 9fce1e9d-4cfc-40f0-a6c2-0a00388da0dc))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "IC2") (unit 1)
         )
@@ -4334,7 +4334,7 @@
     )
     (pin "1" (uuid a5ff8303-b8ae-4a3d-a4c4-5b3730208714))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR070") (unit 1)
         )
@@ -4367,7 +4367,7 @@
     (pin "2" (uuid 058094af-c39d-4b59-b723-bf1d02f61293))
     (pin "3" (uuid e3d0034c-07f4-48aa-8a75-b931d8675195))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "JP6") (unit 1)
         )
@@ -4410,7 +4410,7 @@
     (pin "8" (uuid fb7ac7d3-5b3b-4ae6-b609-7a4123370459))
     (pin "9" (uuid 38fe5b8e-dd8a-4e06-b8c1-458344987898))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K9") (unit 1)
         )
@@ -4430,31 +4430,31 @@
     (property "Value" "Conn_01x03" (at 233.68 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 228.6 52.07 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 228.6 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 228.6 52.07 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 228.6 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 228.6 52.07 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 228.6 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 228.6 52.07 0)
+    (property "Cost" "0.58" (at 228.6 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 228.6 52.07 0)
+    (property "Part" "TBP02R2-381-03BE" (at 228.6 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12a683e7-4396-447d-b241-17d7ad2dbed0))
-    (pin "2" (uuid 69adc5c5-5b4b-4bd3-babe-ae8db2ebd967))
-    (pin "3" (uuid a3071c2b-d828-4581-ba31-d190fc9c23e8))
+    (pin "1" (uuid a0fcde45-ce6d-4860-b297-0def1ee782d6))
+    (pin "2" (uuid 62a075de-afe9-47a1-a2f5-1da97a2be748))
+    (pin "3" (uuid 5f07cf2d-f68e-44e4-af0a-25a485f3ff6a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J10") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -4477,7 +4477,7 @@
     )
     (pin "1" (uuid 68c80f59-8224-4497-9140-19120685360c))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0176") (unit 1)
         )
@@ -4494,31 +4494,31 @@
     (property "Value" "Conn_01x03" (at 260.35 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 255.27 68.58 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 255.27 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 255.27 68.58 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 255.27 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 255.27 68.58 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 255.27 68.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 255.27 68.58 0)
+    (property "Cost" "0.58" (at 255.27 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 255.27 68.58 0)
+    (property "Part" "TBP02R2-381-03BE" (at 255.27 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4010115d-9e08-4e24-817c-88825277e245))
-    (pin "2" (uuid ff431034-3b3b-4d45-9bd9-5e6a3ee5f47e))
-    (pin "3" (uuid 7f172132-b8fe-4e93-be64-25ae28832e85))
+    (pin "1" (uuid 3fba96ba-7337-48fa-9738-ec7434e1d8cb))
+    (pin "2" (uuid ab04f21e-897c-4868-a732-ef380c21938a))
+    (pin "3" (uuid 86c97b46-96c0-4f20-b03c-a224c5dd0238))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J14") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -4541,7 +4541,7 @@
     )
     (pin "1" (uuid 81a9d5cf-ec47-468f-ac8f-88626c7c112a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR069") (unit 1)
         )
@@ -4576,7 +4576,7 @@
     (pin "1" (uuid 9499d828-e3c6-4629-9d5a-b35a621662cc))
     (pin "2" (uuid ad390146-694c-4042-95a1-3ca1494bcd63))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -4614,7 +4614,7 @@
     (pin "1" (uuid e7dc42c7-80fd-4388-880c-ecbcdc8357a4))
     (pin "2" (uuid bc2f38ff-2e3f-41ca-96a4-75f74a21d206))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "R10") (unit 1)
         )
@@ -4639,7 +4639,7 @@
     )
     (pin "1" (uuid 2327d44d-3f2c-4829-ae45-b7ab1141efd7))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR059") (unit 1)
         )
@@ -4676,7 +4676,7 @@
     (pin "4" (uuid 24bec129-b520-4bd9-9f70-03fbd3feec6d))
     (pin "6" (uuid ab1442ef-683c-4ba3-8d4e-f5b4234c884a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U15") (unit 1)
         )
@@ -4711,7 +4711,7 @@
     (pin "1" (uuid 27e99aac-af31-45f3-916d-c6229c49f2e3))
     (pin "2" (uuid ddbc14ec-b901-439a-8042-e9d043dcb7fc))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -4751,7 +4751,7 @@
     (pin "4" (uuid 8df3219f-8f87-452e-b001-3e8f926afcf0))
     (pin "6" (uuid a746b98a-07b5-42ea-a4c0-0e7a19a09734))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U10") (unit 1)
         )
@@ -4776,7 +4776,7 @@
     )
     (pin "1" (uuid ffc0a48e-c370-4e36-a2e7-d33b85782cf9))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR085") (unit 1)
         )
@@ -4801,7 +4801,7 @@
     )
     (pin "1" (uuid 4fcd56dd-57b0-4852-9f39-58c7bcebeee8))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0169") (unit 1)
         )
@@ -4826,7 +4826,7 @@
     )
     (pin "1" (uuid cc973e3f-a15f-4fdb-ac2a-a8efc157644e))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR079") (unit 1)
         )
@@ -4851,7 +4851,7 @@
     )
     (pin "1" (uuid 3f7a7c6b-fca0-484a-a649-b5f9f191f7ee))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0167") (unit 1)
         )
@@ -4876,7 +4876,7 @@
     )
     (pin "1" (uuid 24b47212-9844-4960-8620-3952041f3760))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "#PWR020") (unit 1)
         )
@@ -4904,7 +4904,7 @@
     )
     (pin "1" (uuid b2f4644b-f82f-4e0a-92dd-f5d93750c24a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR057") (unit 1)
         )
@@ -4929,7 +4929,7 @@
     )
     (pin "1" (uuid b71754d9-c09d-4cf5-a16a-43b887bbcfa4))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR054") (unit 1)
         )
@@ -4954,7 +4954,7 @@
     )
     (pin "1" (uuid 7e6edeea-50e5-4886-9982-04c2632954d8))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "#PWR08") (unit 1)
         )
@@ -4982,7 +4982,7 @@
     )
     (pin "1" (uuid 64690054-5ce1-4180-a2b4-ecd7a6e42a26))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR065") (unit 1)
         )
@@ -5017,7 +5017,7 @@
     (pin "1" (uuid dd9f8d86-9fec-49d6-bd4c-149777d6babd))
     (pin "2" (uuid af631bb7-5a26-49b4-80d8-11931ba0471c))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -5057,7 +5057,7 @@
     (pin "4" (uuid ae216d0d-31c2-42e3-97e3-3b8725cb0490))
     (pin "6" (uuid 2f3d109d-cac0-459d-8798-8729fe9f7867))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U11") (unit 1)
         )
@@ -5074,31 +5074,31 @@
     (property "Value" "Conn_01x03" (at 260.35 38.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 255.27 36.83 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 255.27 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 255.27 36.83 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 255.27 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 255.27 36.83 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 255.27 36.83 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 255.27 36.83 0)
+    (property "Cost" "0.58" (at 255.27 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 255.27 36.83 0)
+    (property "Part" "TBP02R2-381-03BE" (at 255.27 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 39da7f65-661f-4d93-ab45-6b707a8f233d))
-    (pin "2" (uuid a4d051a2-d6ce-4878-9d4e-44b42441b82a))
-    (pin "3" (uuid 42913746-ca00-4ca4-b917-fa0b316fde89))
+    (pin "1" (uuid 36cec80b-b4c3-41ca-bbf7-791d53d40eb5))
+    (pin "2" (uuid 8e27329e-cf21-417a-a4cd-8cb91e7be49c))
+    (pin "3" (uuid 8ff8d5c8-f679-4b29-8fec-424cdd3d1f0f))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J12") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -5121,7 +5121,7 @@
     )
     (pin "1" (uuid 5c72149e-8eed-47e3-b824-bb8bfdb5b0ca))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR055") (unit 1)
         )
@@ -5164,7 +5164,7 @@
     (pin "8" (uuid 1f44837f-ef1e-4325-81eb-f8e35fbc3cad))
     (pin "9" (uuid 362fcf93-249e-4d88-a340-5c596f4ee867))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K6") (unit 1)
         )
@@ -5192,7 +5192,7 @@
     )
     (pin "1" (uuid 306475af-ec99-4f0e-b124-e9fb7919311a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0165") (unit 1)
         )
@@ -5233,7 +5233,7 @@
     (pin "7" (uuid 1c4f0f0c-91ef-46f5-a2d2-7fb3ba470ac1))
     (pin "8" (uuid 7a8f2684-de80-4be5-a3cc-3d230937b9b3))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "RN2") (unit 1)
         )
@@ -5261,7 +5261,7 @@
     )
     (pin "1" (uuid 4a181fe4-f1b4-4d55-a411-42d693ba8096))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR063") (unit 1)
         )
@@ -5286,7 +5286,7 @@
     )
     (pin "1" (uuid 46da261b-0030-4842-bba0-e745466a9f08))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR058") (unit 1)
         )
@@ -5303,31 +5303,31 @@
     (property "Value" "Conn_01x03" (at 233.68 38.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 228.6 36.83 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 228.6 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 228.6 36.83 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 228.6 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 228.6 36.83 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 228.6 36.83 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 228.6 36.83 0)
+    (property "Cost" "0.58" (at 228.6 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 228.6 36.83 0)
+    (property "Part" "TBP02R2-381-03BE" (at 228.6 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35799571-9c32-426a-a677-606385a9a8f1))
-    (pin "2" (uuid c2a88080-4071-4fd9-87bc-d0b245bd3d5a))
-    (pin "3" (uuid fb05dae2-4922-48a0-b721-86a504b38384))
+    (pin "1" (uuid 8f670126-a6e0-4584-8cf7-256e7876e996))
+    (pin "2" (uuid 9f702e18-5e41-4a29-b6a0-ba9bf183afb9))
+    (pin "3" (uuid c1ae6cd9-e45c-4b9f-83f2-2688025cf18d))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -5362,7 +5362,7 @@
     (pin "4" (uuid 349fe1e2-830a-471a-9eaa-572c92f09acf))
     (pin "6" (uuid d13f59b8-8146-4c6f-aaa5-3c0752f9dcfa))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U17") (unit 1)
         )
@@ -5387,7 +5387,7 @@
     )
     (pin "1" (uuid 68500309-1dcb-45a4-a4cb-902cfd46ff13))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR071") (unit 1)
         )
@@ -5412,7 +5412,7 @@
     )
     (pin "1" (uuid 4a8e0dad-09e4-4d39-84ae-2fe0ce467a9e))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR076") (unit 1)
         )
@@ -5437,7 +5437,7 @@
     )
     (pin "1" (uuid a0b96e20-dc8e-42f8-b786-88ca5cd86a1a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR080") (unit 1)
         )
@@ -5462,7 +5462,7 @@
     )
     (pin "1" (uuid 1eed92dc-f4ee-4e48-bae7-bb38bf56e906))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR056") (unit 1)
         )
@@ -5503,7 +5503,7 @@
     (pin "7" (uuid 0ab1dd4d-555c-4867-959f-76056c1161cd))
     (pin "8" (uuid 59d7d129-e761-495e-929f-ea522979f209))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "RN4") (unit 1)
         )
@@ -5531,7 +5531,7 @@
     )
     (pin "1" (uuid c1f9bfac-ffc6-4708-8c0d-55c615b5fe8c))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0166") (unit 1)
         )
@@ -5556,7 +5556,7 @@
     )
     (pin "1" (uuid 11ed2647-6a43-4255-bf59-49a462661e1b))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "#PWR046") (unit 1)
         )
@@ -5596,7 +5596,7 @@
     (pin "4" (uuid cad87ecb-cae6-4a27-8d32-08ea9f65fa02))
     (pin "6" (uuid 47d78170-c989-4389-bae5-ec830c28fe59))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "U16") (unit 1)
         )
@@ -5621,7 +5621,7 @@
     )
     (pin "1" (uuid b6c55361-261b-48b6-8013-726f8a9060f9))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR072") (unit 1)
         )
@@ -5664,7 +5664,7 @@
     (pin "8" (uuid 1aa028be-25f9-4ddc-850b-91c4dfc2876d))
     (pin "9" (uuid a14059de-365d-45cb-bd00-ad5e4fca6a28))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K2") (unit 1)
         )
@@ -5692,7 +5692,7 @@
     )
     (pin "1" (uuid 52510bdb-89c4-4646-a8c6-d44bb103cdf6))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0168") (unit 1)
         )
@@ -5735,7 +5735,7 @@
     (pin "8" (uuid 876625f0-7c0d-4e92-9825-773270533f2b))
     (pin "9" (uuid 6850f164-67f7-415a-9672-f1038fec3b1f))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K5") (unit 1)
         )
@@ -5763,7 +5763,7 @@
     )
     (pin "1" (uuid 30fde4ca-608c-4aea-b7d8-aea2f802994e))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR082") (unit 1)
         )
@@ -5806,7 +5806,7 @@
     (pin "8" (uuid 7b3ebf24-fa4f-4f51-abc1-92996dd61894))
     (pin "9" (uuid 0d6f619f-dc09-49d7-9546-dff571a2bdcf))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K8") (unit 1)
         )
@@ -5852,7 +5852,7 @@
     (pin "8" (uuid a5134203-10ba-4da6-bb22-b594dcbbf7f6))
     (pin "9" (uuid cc9ee05b-5a62-4fd7-87bd-dcabff9af12a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K3") (unit 1)
         )
@@ -5888,7 +5888,7 @@
     (pin "2" (uuid d40214c7-475f-43d8-9871-e5feef7c8148))
     (pin "3" (uuid 1ab60341-552e-4e4c-b82c-59d8174a2688))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "JP7") (unit 1)
         )
@@ -5913,7 +5913,7 @@
     )
     (pin "1" (uuid fc69fee4-8d11-4985-9f70-427ea00ba4a1))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR078") (unit 1)
         )
@@ -5956,7 +5956,7 @@
     (pin "8" (uuid eeab1152-c68c-49a7-a651-4326043f8b11))
     (pin "9" (uuid 6e899147-fcd8-402c-b747-c7f5123e0a7c))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K1") (unit 1)
         )
@@ -5976,31 +5976,31 @@
     (property "Value" "Conn_01x03" (at 260.35 20.32 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 255.27 19.05 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 255.27 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 255.27 19.05 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 255.27 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 255.27 19.05 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 255.27 19.05 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 255.27 19.05 0)
+    (property "Cost" "0.58" (at 255.27 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 255.27 19.05 0)
+    (property "Part" "TBP02R2-381-03BE" (at 255.27 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 832ff4c3-32bf-46fe-832d-7b4444d54124))
-    (pin "2" (uuid 3303d714-bb85-40ac-b3ff-42228ff131a2))
-    (pin "3" (uuid 821e1003-c7d0-4252-8c85-21baf7cfcb68))
+    (pin "1" (uuid 011295e8-b601-41a8-a985-6a14be7785ac))
+    (pin "2" (uuid e8ff3195-876d-4ef5-8821-d431f0890be9))
+    (pin "3" (uuid 516f44dc-f4aa-4cb4-b57e-687f263d7869))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J15") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -6033,7 +6033,7 @@
     (pin "1" (uuid a6f4d613-a648-4cd1-b1d5-b26ccd96f239))
     (pin "2" (uuid 1b5e0aed-a188-4f21-9e2b-879bd33910c8))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -6071,7 +6071,7 @@
     (pin "1" (uuid d2e48cad-242d-445a-aa5c-ca058afc9fd2))
     (pin "2" (uuid a4910b22-a292-4f76-a479-f60900ed6c79))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -6099,7 +6099,7 @@
     )
     (pin "1" (uuid a3df3345-a269-40f1-85a7-10ab95af3331))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR077") (unit 1)
         )
@@ -6116,31 +6116,31 @@
     (property "Value" "Conn_01x03" (at 233.68 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 228.6 68.58 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 228.6 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 228.6 68.58 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 228.6 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 228.6 68.58 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 228.6 68.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 228.6 68.58 0)
+    (property "Cost" "0.58" (at 228.6 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 228.6 68.58 0)
+    (property "Part" "TBP02R2-381-03BE" (at 228.6 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b827b62-db1a-4ca2-b057-0577f0764690))
-    (pin "2" (uuid 4a8ffa84-c92e-46cf-a6db-fccc62485318))
-    (pin "3" (uuid 416fe796-968d-4f16-90a9-507cf0ea44ad))
+    (pin "1" (uuid e2d32250-56b1-4e0a-b251-17fd1483aa8f))
+    (pin "2" (uuid 9abefd46-e645-49ec-a6fa-f61d576053ad))
+    (pin "3" (uuid 8570529f-103b-48f0-a468-598d02839cde))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
-          (reference "J11") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -6163,7 +6163,7 @@
     )
     (pin "1" (uuid a5e717dd-0b5e-4815-b9fb-e1c10a016bec))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR081") (unit 1)
         )
@@ -6206,7 +6206,7 @@
     (pin "8" (uuid c960bdf4-90ae-452e-ac51-08a17098ddf9))
     (pin "9" (uuid 60bf7515-fb48-4570-8c07-83f413c9a4b6))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K10") (unit 1)
         )
@@ -6234,7 +6234,7 @@
     )
     (pin "1" (uuid b271a2ea-c010-4b2f-84fd-21011f33e7d1))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR068") (unit 1)
         )
@@ -6259,7 +6259,7 @@
     )
     (pin "1" (uuid c2f99dc0-5f5a-47fc-9c7c-538dc336a24c))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR083") (unit 1)
         )
@@ -6284,7 +6284,7 @@
     )
     (pin "1" (uuid f4928abe-fbcb-4a95-8936-5749c0b07877))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR064") (unit 1)
         )
@@ -6319,7 +6319,7 @@
     (pin "1" (uuid dc75e7ac-f6f5-40de-99a4-03ed7c0492e4))
     (pin "2" (uuid 6f9de08f-98e5-4018-8805-d6d3711d9335))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -6347,7 +6347,7 @@
     )
     (pin "1" (uuid 294f9f25-7a29-4944-affa-26bbca76d37b))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0163") (unit 1)
         )
@@ -6382,7 +6382,7 @@
     (pin "1" (uuid f0af999f-f239-4237-b3d0-84755b60eaf9))
     (pin "2" (uuid de253a1d-24d0-4a23-942f-7045ccd98e28))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -6410,7 +6410,7 @@
     )
     (pin "1" (uuid bcd37f78-acd3-4f0d-b459-84f56799370f))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR074") (unit 1)
         )
@@ -6435,7 +6435,7 @@
     )
     (pin "1" (uuid f7f3bee1-4b1d-4950-8810-2e2ad729f472))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR0177") (unit 1)
         )
@@ -6452,26 +6452,26 @@
     (property "Value" "Conn_01x03" (at 260.35 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex_3x1_0436500315:CON_436500315_MOL" (at 255.27 52.07 0)
+    (property "Footprint" "CUI_3x1_connector:CUI_TBP02R2-381-03BE" (at 255.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/436500315_sd.pdf" (at 255.27 52.07 0)
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/tbp02r2-381.pdf" (at 255.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "https://www.digikey.com/en/products/detail/molex/0436500315/283462" (at 255.27 52.07 90)
+    (property "Digikey" "https://www.digikey.com/en/products/detail/cui-devices/TBP02R2-381-03BE/10238470" (at 255.27 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Cost" "1.27" (at 255.27 52.07 0)
+    (property "Cost" "0.58" (at 255.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part" "0436500315" (at 255.27 52.07 0)
+    (property "Part" "TBP02R2-381-03BE" (at 255.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ce7c03cb-ba30-41bb-a7d7-cf39d982ca08))
     (pin "2" (uuid d1e31ec6-996d-4a1f-a5bb-2acc7e93e326))
     (pin "3" (uuid cef6a83f-85ba-4519-a9b1-2cb57e96e808))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "J5") (unit 1)
         )
@@ -6499,7 +6499,7 @@
     )
     (pin "1" (uuid b71d427a-b562-45e4-9e9f-3fdaa293d4d3))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR066") (unit 1)
         )
@@ -6524,7 +6524,7 @@
     )
     (pin "1" (uuid a5632352-1d3b-4023-800e-0e86f67a49d2))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR075") (unit 1)
         )
@@ -6566,7 +6566,7 @@
     (pin "8" (uuid 0a2874a8-00db-4cff-934a-6285e3a5607c))
     (pin "9" (uuid 9fe808d5-eb6b-49c1-b405-21e7a28c23a4))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "RN1") (unit 1)
         )
@@ -6594,7 +6594,7 @@
     )
     (pin "1" (uuid 84784273-286f-4a1d-8a88-e6694e5fa7e9))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR051") (unit 1)
         )
@@ -6636,7 +6636,7 @@
     (pin "8" (uuid 24e0700b-26e8-49d1-88ee-1a4af361c6f5))
     (pin "9" (uuid 3bedcd94-4a17-410e-8748-7e8ca4d9fb6a))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "RN3") (unit 1)
         )
@@ -6688,7 +6688,7 @@
     (pin "8" (uuid cff4c91d-5025-46ad-957c-3d9cc85d6014))
     (pin "9" (uuid 26a0e631-1d9a-4d71-8310-df25526da668))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "U5") (unit 1)
         )
@@ -6726,7 +6726,7 @@
     (pin "1" (uuid b771bab9-6ac2-4ba6-ba0b-55582a1a7ddd))
     (pin "2" (uuid 7826e788-50fa-4c22-bc95-c5aa1222ffe8))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "R11") (unit 1)
         )
@@ -6769,7 +6769,7 @@
     (pin "8" (uuid 09d3324e-7414-43d5-82eb-29f3434c6a6d))
     (pin "9" (uuid 966cb9fb-955f-4942-8e36-a81880e80142))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K7") (unit 1)
         )
@@ -6797,7 +6797,7 @@
     )
     (pin "1" (uuid ed040885-cf6f-476d-bd68-0faacd7a47ca))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR073") (unit 1)
         )
@@ -6822,7 +6822,7 @@
     )
     (pin "1" (uuid 259638e1-a511-47d0-9c7e-3f6f3f3339dc))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2/69365a30-fc6f-418a-bc31-d76af2fc83f6"
           (reference "#PWR062") (unit 1)
         )
@@ -6857,7 +6857,7 @@
     (pin "1" (uuid 5b1ac51b-5c84-4ea3-92aa-d973e11e49bf))
     (pin "2" (uuid 312796ef-2f21-4050-ac9d-6a83fb02046e))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "R1") (unit 1)
         )
@@ -6903,7 +6903,7 @@
     (pin "8" (uuid 471eef36-b2b4-4c4a-b212-410b6fe38c87))
     (pin "9" (uuid 78dd4bb6-766e-4903-8237-049651fe159c))
     (instances
-      (project "AOML_AB_3.0_reorganized-v1"
+      (project "AOML_AB_3.0_reorganized-v2"
         (path "/6a222f58-627e-41ff-951d-9ad8d2e0d7a2"
           (reference "K13") (unit 1)
         )

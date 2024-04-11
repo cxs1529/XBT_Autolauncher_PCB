@@ -50,4 +50,6 @@
   (lib (name "LED_green_0603")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/B1911PG__20D000514U1930/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Crystal_8MHZ_smt")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/ABLS_8_000MHZ_20_B_3_H_T")(options "")(descr ""))
   (lib (name "Images_logos")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/Images_logos")(options "")(descr ""))
+  (lib (name "CUI_3x1_connector")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TBP02R2_381_03BE-digikey")(options "")(descr ""))
+  (lib (name "Multiplexer_SN74LVC1G3157")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LIB_SN74LVC1G3157DCKR/SN74LVC1G3157DCKR/KiCad")(options "")(descr ""))
 )
