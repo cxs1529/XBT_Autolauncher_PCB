@@ -52,4 +52,5 @@
   (lib (name "Images_logos")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/Images_logos")(options "")(descr ""))
   (lib (name "CUI_3x1_connector")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TBP02R2_381_03BE-digikey")(options "")(descr ""))
   (lib (name "Multiplexer_SN74LVC1G3157")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LIB_SN74LVC1G3157DCKR/SN74LVC1G3157DCKR/KiCad")(options "")(descr ""))
+  (lib (name "Network_resistor_10k_bussed")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LIB_746X101103JP/746X101103JP/KiCad")(options "")(descr ""))
 )
