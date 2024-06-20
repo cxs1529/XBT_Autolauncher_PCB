@@ -53,4 +53,8 @@
   (lib (name "CUI_3x1_connector")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/TBP02R2_381_03BE-digikey")(options "")(descr ""))
   (lib (name "Multiplexer_SN74LVC1G3157")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LIB_SN74LVC1G3157DCKR/SN74LVC1G3157DCKR/KiCad")(options "")(descr ""))
   (lib (name "Network_resistor_10k_bussed")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LIB_746X101103JP/746X101103JP/KiCad")(options "")(descr ""))
+  (lib (name "OpAmp_LMV321B-TR")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/LMV321B_TR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Mosfet_BSS138PW")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/BSS138PW_115/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Crystal_8mhz_small")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/ABM3_8_000MHZ_D2Y_T/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Polyfuse_1A_1812")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/0ZCG0050FF2C/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
