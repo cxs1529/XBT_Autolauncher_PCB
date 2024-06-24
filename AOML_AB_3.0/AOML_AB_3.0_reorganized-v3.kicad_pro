@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.44,
-          "width": 1.46
+          "height": 0.5,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -116,13 +116,11 @@
         "clearance|211153099|135597600|b864a9d0-3ff3-4772-bc2d-50a08e46f39c|8d3fa781-3fef-4dc5-80de-8864f0e7996c",
         "clearance|211153099|136097601|0cd12e93-35dd-4647-9632-27fc48b8817a|b864a9d0-3ff3-4772-bc2d-50a08e46f39c",
         "clearance|211153099|136597600|d60cc8a9-b0d1-4fc7-a572-21e861d4bbf3|0cd12e93-35dd-4647-9632-27fc48b8817a",
-        "copper_edge_clearance|207000000|86000000|5ef02aba-0059-4b41-8db3-e60aabb56a60|f45a2c35-b185-480d-9d12-f55db7986f2a",
-        "copper_edge_clearance|356000000|86000000|5ef02aba-0059-4b41-8db3-e60aabb56a60|fe224260-0fdf-4afb-b188-8eac33ef0f9f",
-        "copper_edge_clearance|362000000|178000000|83da7c66-020f-4ce1-a919-bb00bd6a796d|c690c482-4f0a-4d1d-be8a-f0cd9f59524c",
-        "copper_edge_clearance|52000000|178000000|9b4d5b46-8227-4a44-9360-f5c7880d7aa4|dc061664-2a99-4a84-8f0b-7c1ea030b9c0",
-        "copper_edge_clearance|58000000|86000000|5ef02aba-0059-4b41-8db3-e60aabb56a60|7f2a95b8-1a2d-4955-8fa0-539e2de24df5",
-        "via_dangling|337500000|98100000|dd7f48f3-c247-4b37-9ad5-38024ed09535|00000000-0000-0000-0000-000000000000",
-        "via_dangling|69400000|138200000|3fec29d0-8be1-4572-b661-f50808140a52|00000000-0000-0000-0000-000000000000"
+        "connection_width|172000417|161122309|00baad15-482e-4a1e-9688-aa54c8dd9232|00000000-0000-0000-0000-000000000000",
+        "connection_width|197935599|129557543|00baad15-482e-4a1e-9688-aa54c8dd9232|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|78145800|133000000|008b9944-1df8-455f-bb5e-0c83227ce0af|41ef2236-aab1-46ca-bd81-9aafb1263008|F.Cu",
+        "starved_thermal|89000000|126461000|6385d23a-f83f-4cb3-9423-d99e77346860|5638ff71-8c7b-45a3-b558-f34aa61fbe30|F.Cu",
+        "via_dangling|337500000|98100000|dd7f48f3-c247-4b37-9ad5-38024ed09535|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
