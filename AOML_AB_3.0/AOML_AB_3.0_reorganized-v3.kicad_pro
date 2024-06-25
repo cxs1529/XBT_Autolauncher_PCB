@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.5,
-          "width": 1.0
+          "drill": 6.35,
+          "height": 8.5,
+          "width": 8.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -116,10 +116,6 @@
         "clearance|211153099|135597600|b864a9d0-3ff3-4772-bc2d-50a08e46f39c|8d3fa781-3fef-4dc5-80de-8864f0e7996c",
         "clearance|211153099|136097601|0cd12e93-35dd-4647-9632-27fc48b8817a|b864a9d0-3ff3-4772-bc2d-50a08e46f39c",
         "clearance|211153099|136597600|d60cc8a9-b0d1-4fc7-a572-21e861d4bbf3|0cd12e93-35dd-4647-9632-27fc48b8817a",
-        "connection_width|172000417|161122309|00baad15-482e-4a1e-9688-aa54c8dd9232|00000000-0000-0000-0000-000000000000",
-        "connection_width|197935599|129557543|00baad15-482e-4a1e-9688-aa54c8dd9232|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|78145800|133000000|008b9944-1df8-455f-bb5e-0c83227ce0af|41ef2236-aab1-46ca-bd81-9aafb1263008|F.Cu",
-        "starved_thermal|89000000|126461000|6385d23a-f83f-4cb3-9423-d99e77346860|5638ff71-8c7b-45a3-b558-f34aa61fbe30|F.Cu",
         "via_dangling|337500000|98100000|dd7f48f3-c247-4b37-9ad5-38024ed09535|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -128,7 +124,7 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
+        "connection_width": "ignore",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",

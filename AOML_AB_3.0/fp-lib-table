@@ -57,4 +57,5 @@
   (lib (name "Mosfet_BSS138PW")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/BSS138PW_115/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Crystal_8mhz_small")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/ABM3_8_000MHZ_D2Y_T/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Polyfuse_1A_1812")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/0ZCG0050FF2C/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Capacitor_THT1000uF")(type "KiCad")(uri "C:/Users/christian.saiz/Documents/0_NOAA/1_NOAA_work/1_XBT/New_Autolauncher/KiCAD_AL_libraries/25PX1000MEFCT810X16/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
