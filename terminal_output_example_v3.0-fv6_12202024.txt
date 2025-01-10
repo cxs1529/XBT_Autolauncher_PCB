@@ -1,0 +1,957 @@
+** Launcher configuration found in memory **
+
+ <AL> Tubes: 8 | Type: X | Serial: 035 | Mode: 0 | Timeout: 020 | Verbose: 0 <AL>
+
+> Non-Volatile Memory {M} OR Default {D}
+ <MOTOR> Runtime: 9000 ms {M} | PWM Frequency: 180 Hz {M} | Sample Period: 500 ms {M} | Wiring: 0 {M} | ADC Display: 1 {M}
+
+
+|        STEPPER MOTOR STATS          |
+|=====================================|
+| [M1] IMAX= 077 mA, USE_COUNT= 00001 |
+| [M2] IMAX= 012 mA, USE_COUNT= 00001 |
+| [M3] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M4] IMAX= 107 mA, USE_COUNT= 00002 |
+| [M5] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M6] IMAX= 134 mA, USE_COUNT= 00025 |
+| [M7] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M8] IMAX= 000 mA, USE_COUNT= 00000 |
+|=====================================|
+
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+> GPS will start streaming data after 20 seconds of inactivity
+
+|========================================|
+|   ** Switching back to GPS stream **   |
+|========================================|
+
+bÊb¢b
+     bÊb
+        b²¢bÊRº
+               5
+                $GPGSV,3,2,10,31,57,005,26,32,34,109,33,04,14,313,00,10,03,161,00*72
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+$GPRMC,154122,A,2815.3930,N,08136.2755,W,000.0,000.0,201224,005.8,W*73
+$GPGGA,154122,2815.3930,N,08136.2755,W,1,06,1.2,35.2,M,-30.5,M,,*45
+$GPGSA,A,3,03,16,28,29,31,32,,,,,,,1.5,1.2,0.9*3A
+$GPGSV,3,1,10,03,41,299,27,16,52,194,28,28,39,042,12,29,10,064,29*7B
+$GPGSV,3,2,10,31,57,005,25,32,34,109,33,04,14,313,00,10,03,161,00*71
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+$GPRMC,154123,A,2815.3932,N,08136.2755,W,000.0,000.0,201224,005.8,W*70
+$GPGGA,154123,2815.3932,N,08136.2755,W,1,06,1.2,35.2,M,-30.5,M,,*46
+$GPGSA,A,3,03,16,28,29,31,32,,,,,,,1.5,1.2,0.9*3A
+$GPGSV,3,1,10,03,41,299,28,16,52,194,28,28,39,042,14,29,10,064,29*72
+$GPGSV,3,2,10,31,57,005,24,32,34,109,33,04,14,313,00,10,03,161,00*70
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+$GPRMC,154124,A,2815.3934,N,08136.2756,W,000.0,000.0,201224,005.8,W*72
+$GPGGA,154124,2815.3934,N,08136.2756,W,1,06,1.2,35.2,M,-30.5,M,,*44
+$GPGSA,A,3,03,16,28,29,31,32,,,,,,,1.5,1.2,0.9*3A
+$GPGSV,3,1,10,03,41,299,28,16,52,194,28,28,39,042,14,29,10,064,28*73
+$GPGSV,3,2,10,31,57,005,24,32,34,109,33,04,14,313,00,10,03,161,00*70
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+$GPRMC,154125,A,2815.3936,N,08136.2756,W,000.0,000.0,201224,005.8,W*71
+$GPGGA,154125,2815.3936,N,08136.2756,W,1,06,1.2,35.2,M,-30.5,M,,*47
+$GPGSA,A,3,03,16,28,29,31,32,,,,,,,1.5,1.2,0.9*3A
+$GPGSV,3,1,10,03,41,299,28,16,52,194,28,28,39,042,15,29,10,064,27*7D
+$GPGSV,3,2,10,31,57,005,24,32,34,109,33,04,14,313,00,10,03,161,00*70
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+$GPRMC,154126,A,2815.3937,N,08136.2757,W,000.0,000.0,201224,005.8,W*72
+$GPGGA,154126,2815.3937,N,08136.2757,W,1,07,1.2,35.2,M,-30.5,M,,*45
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,41,299,28,16,52,194,28,26,84,120,20,28,39,042,14*78
+$GPGSV,3,2,10,29,10,064,27,31,57,005,24,32,34,109,33,04,14,313,00*79
+$GPGSV,3,3,10,10,03,161,00,27,04,175,00*7E
+$GPRMC,154127,A,2815.3937,N,08136.2757,W,000.0,000.0,201224,005.8,W*73
+$GPGGA,154127,2815.3937,N,08136.2757,W,1,06,1.2,35.2,M,-30.5,M,,*45
+$GPGSA,A,3,03,16,28,29,31,32,,,,,,,1.5,1.2,0.9*3A
+$GPGSV,3,1,10,03,41,299,28,16,52,194,28,28,39,042,13,29,10,064,27*7B
+$GPGSV,3,2,10,31,57,005,24,32,34,109,33,04,14,313,00,10,03,161,00*70
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+$GPRMC,154128,A,2815.3937,N,08136.2756,W,000.0,000.0,201224,005.8,W*7D
+$GPGGA,154128,2815.3937,N,08136.2756,W,1,06,1.2,35.2,M,-30.5,M,,*4B
+$GPGSA,A,3,03,16,28,29,31,32,,,,,,,1.5,1.2,0.9*3A
+$GPGSV,3,1,10,03,41,299,28,16,52,194,28,28,39,042,14,29,10,064,27*7C
+$GPGSV,3,2,10,31,57,005,24,32,34,109,33,04,14,313,00,10,03,161,00*70
+$GPGSV,3,3,10,26,84,122,00,27,04,175,00*73
+
+
+123456789
+** Unrecognized command!!**
+0RM
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+> GPS will start streaming data after 20 seconds of inactivity
+F
+Motor Running (Stop with '@') ...
+<00> Current [AD# 734]: 127.0 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<01> Current [AD# 739]: 127.8 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<02> Current [AD# 747]: 129.1 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<03> Current [AD# 748]: 129.2 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<04> Current [AD# 731]: 126.5 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<05> Current [AD# 730]: 126.3 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<06> Current [AD# 721]: 124.8 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<07> Current [AD# 712]: 123.4 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1703]: 38.4 C
+<08> Current [AD# 716]: 124.0 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<09> Current [AD# 714]: 123.7 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<10> Current [AD# 721]: 124.8 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<11> Current [AD# 711]: 123.2 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<12> Current [AD# 712]: 123.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<13> Current [AD# 712]: 123.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<14> Current [AD# 720]: 124.7 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<15> Current [AD# 727]: 125.8 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<16> Current [AD# 712]: 123.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<17> Current [AD# 710]: 123.0 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+Z
+Motor Running (Stop with '@') ...
+<00> Current [AD# 704]: 122.1 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<01> Current [AD# 712]: 123.4 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<02> Current [AD# 699]: 121.2 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<03> Current [AD# 698]: 121.1 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<04> Current [AD# 700]: 121.4 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+
+** Motor stopped by user! **
+s
+> AL Serial Number: ALX35
+P
+> Voltage [AD# 1800]: 15.3 V | STM32 Temperature [AD# 1708]: 37.5 C
+~
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+Z
+|===============================================================================================|
+|                                   CONFIGURATION MENU HELP                                     |
+|===============================================================================================|
+| <A> Set AL tubes, type & S/N
+| Set the autolauncher parameters
+| Tube count: number of XBT tubes available (6 or 8)
+| This parameter affects the possibility of driving pins and connecting XBTs 7 & 8
+| Type: type of launcher large (X) or regular (R)
+| This is option is not available if Tube count = 6
+| Serial Number: autolauncher unique serial number
+|
+| <S> Extend all pins
+| Extend all pins from 1 to 6 or 8
+|
+| <D> Retract all pins
+| Retract all pins from 1 to 6 or 8
+|
+| <F> Grease pins mode
+| Retract and extend each pin up to 10 times
+| or until the user sends '@'
+|
+| <G> Clear memory range
+| Resets to 0 a range of bytes in EEPROM
+| Memory addresses are printed out
+| Start address: 0 to 127
+| End address: 0 to 127 & should be greater than Start address
+|
+| <H> Read motor statistics
+| Prints the maximum logged curent & use count for each motor
+|
+| <J> Set motor runtime
+| Set the time (ms) the motors run to retract/extend pin
+|
+| <K> Set ADC sampling period
+| Set the time interval (ms) between ADC samples while motor is running
+| ADC samples taken: current, input voltage, internal STM32 temperature
+|
+| <L> Set motor wiring mode
+| Set the wiring code for the stepper motors to 0 or 1
+| Based on the color sequence connected in the motor terminal,
+| a 0 or 1 will make a motor turn CW or CCW when a extending/retracting a pin
+| Color code is indicated in the PCB: blue, white, green, white, black, red
+|
+| <W> Set motor PWM frequency
+| Set the step signal frequency (Hz) to drive the DRV8826 controller
+|
+| <E> Reset motor statistics
+| Clears to 0 max current and use count for the selected motor
+|
+| <R> Read motor configuration
+| Read all motor parameters stored in memory:
+| Runtime, ADC sample interval, Wiring mode, PWM frequency
+|
+| <T> Launcher mode
+| Mode: The launcher mode determines the behavior of the AL Tx line in standby
+| Mode 0: the launcher will stream GPS data by default after a period (timeout) of inactivity
+| Mode 1: the launcher behaves as usual, only displaying the output from the STM32
+| Timeout: The time in seconds after a period of inactivity to start streaming GPS data
+|
+| <Y> Verbose mode
+| Mode 0: the launcher will only echo characters received while in main menu
+| Mode 1: the launcher will display additional information for debugging purposes
+|
+| <U> Read launcher parameters
+| Read current launcher S/N, tubes, type, mode, timeout & verbose mode
+|
+|===============================================================================================|
+
+
+> U
+** Launcher configuration found in memory **
+
+ <AL> Tubes: 8 | Type: X | Serial: 035 | Mode: 0 | Timeout: 020 | Verbose: 0 <AL>
+
+> H
+
+|        STEPPER MOTOR STATS          |
+|=====================================|
+| [M1] IMAX= 077 mA, USE_COUNT= 00001 |
+| [M2] IMAX= 012 mA, USE_COUNT= 00001 |
+| [M3] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M4] IMAX= 107 mA, USE_COUNT= 00002 |
+| [M5] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M6] IMAX= 134 mA, USE_COUNT= 00027 |
+| [M7] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M8] IMAX= 000 mA, USE_COUNT= 00000 |
+|=====================================|
+
+> E
+> [exit=0] Enter motor number or [9]-all [1-9]: 1
+
+> 4 bytes cleared
+
+
+|        STEPPER MOTOR STATS          |
+|=====================================|
+| [M1] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M2] IMAX= 012 mA, USE_COUNT= 00001 |
+| [M3] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M4] IMAX= 107 mA, USE_COUNT= 00002 |
+| [M5] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M6] IMAX= 134 mA, USE_COUNT= 00027 |
+| [M7] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M8] IMAX= 000 mA, USE_COUNT= 00000 |
+|=====================================|
+
+> ~
+** Unrecognized command!!**
+
+> M
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+
+> R
+> Non-Volatile Memory {M} OR Default {D}
+ <MOTOR> Runtime: 9000 ms {M} | PWM Frequency: 180 Hz {M} | Sample Period: 500 ms {M} | Wiring: 0 {M} | ADC Display: 1 {M}
+
+> F
+Send the @ symbol repeatedly to exit grease pins mode
+
+> Greasing pins ...
+
+> Retracting pin 1
+
+Motor Running (Stop with '@') ...
+<00> Current [AD# 396]: 71.9 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<01> Current [AD# 519]: 91.9 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<02> Current [AD# 477]: 85.1 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<03> Current [AD# 403]: 73.0 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<04> Current [AD# 321]: 59.6 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<05> Current [AD# 502]: 89.1 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<06> Current [AD# 336]: 62.1 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<07> Current [AD# 300]: 56.2 mA | Voltage [AD# 1796]: 15.3 V | Temperature [AD# 1706]: 37.9 C
+<08> Current [AD# 461]: 82.5 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<09> Current [AD# 328]: 60.8 mA | Voltage [AD# 1796]: 15.3 V | Temperature [AD# 1706]: 37.9 C
+<10> Current [AD# 460]: 82.3 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<11> Current [AD# 319]: 59.3 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<12> Current [AD# 327]: 60.6 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<13> Current [AD# 286]: 53.9 mA | Voltage [AD# 1796]: 15.3 V | Temperature [AD# 1706]: 37.9 C
+<14> Current [AD# 428]: 77.1 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<15> Current [AD# 341]: 62.9 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<16> Current [AD# 393]: 71.4 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<17> Current [AD# 294]: 55.2 mA | Voltage [AD# 1796]: 15.3 V | Temperature [AD# 1706]: 37.9 C
+
+> Extending pin 1
+
+Motor Running (Stop with '@') ...
+<00> Current [AD# 605]: 105.9 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<01> Current [AD# 371]: 67.8 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<02> Current [AD# 391]: 71.0 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<03> Current [AD# 613]: 107.2 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<04> Current [AD# 397]: 72.0 mA | Voltage [AD# 1795]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<05> Current [AD# 584]: 102.5 mA | Voltage [AD# 1794]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+
+** Motor stopped by user! **
+
+** Grease process finished by user **
+
+> M
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+
+> Y
+> Current verbose mode: 0 [default=0]
+> Enter [0] only echo or [1] display extra info: 1
+> Launcher verbose mode: 1
+> Setting saved! verbose: 1
+
+
+> R
+> Executing OPTION (R) --> motor_read_parameters()
+> Non-Volatile Memory {M} OR Default {D}
+ <MOTOR> Runtime: 9000 ms {M} | PWM Frequency: 180 Hz {M} | Sample Period: 500 ms {M} | Wiring: 0 {M} | ADC Display: 1 {M}
+
+> H
+> Executing OPTION (H) --> motor_read_stats()
+
+|        STEPPER MOTOR STATS          |
+|=====================================|
+| [M1] IMAX= 107 mA, USE_COUNT= 00002 |
+| [M2] IMAX= 012 mA, USE_COUNT= 00001 |
+| [M3] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M4] IMAX= 107 mA, USE_COUNT= 00002 |
+| [M5] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M6] IMAX= 134 mA, USE_COUNT= 00027 |
+| [M7] IMAX= 000 mA, USE_COUNT= 00000 |
+| [M8] IMAX= 000 mA, USE_COUNT= 00000 |
+|=====================================|
+
+> M
+> Executing OPTION (M) --> menu_config_print()
+
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+
+> Q
+> Executing OPTION (Q) -->
+> Leaving Auto launcher configuration menu
+
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+> GPS will start streaming data after 20 seconds of inactivity
+
+> 1
+> Executing OPTION (1) --> connect_xbt_pin(1)
+
+> 2
+> Executing OPTION (2) --> connect_xbt_pin(2)
+
+> 3
+> Executing OPTION (3) --> connect_xbt_pin(3)
+
+> ~
+> Executing OPTION (~) --> menu_config_print()
+
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+
+> Y
+> Executing OPTION (Y) --> menu_set_verbose()
+> Current verbose mode: 1 [default=0]
+> Enter [0] only echo or [1] display extra info: 0
+> Launcher verbose mode: 0
+> Setting saved! verbose: 0
+
+
+> I
+> Current motor ADC display: 1 [default=1]
+> Enter motor ADC display [0] disable or [1] enable: 0
+> Motor ADC display: 0
+> Setting saved! ADC display: 0
+
+
+> Q
+> Leaving Auto launcher configuration menu
+
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+> GPS will start streaming data after 20 seconds of inactivity
+
+> Z
+Motor Running (Stop with '@') ...
+F
+Motor Running (Stop with '@') ...
+
+** Motor stopped by user! **
+~
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+I
+> Current motor ADC display: 0 [default=1]
+> Enter motor ADC display [0] disable or [1] enable: 1
+> Motor ADC display: 1
+> Setting saved! ADC display: 1
+
+
+> Q
+> Leaving Auto launcher configuration menu
+
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+> GPS will start streaming data after 20 seconds of inactivity
+
+> Z
+Motor Running (Stop with '@') ...
+<00> Current [AD# 756]: 130.5 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<01> Current [AD# 761]: 131.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<02> Current [AD# 748]: 129.2 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<03> Current [AD# 747]: 129.1 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+<04> Current [AD# 748]: 129.2 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+
+** Motor stopped by user! **
+~
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+
+|========================================|
+|   ** Switching back to GPS stream **   |
+|========================================|
+
+$GPRMC,154612,A,2815.3907,N,08136.2738,W,000.0,000.0,201224,005.8,W*78
+$GPGGA,154612,2815.3907,N,08136.2738,W,1,07,1.2,35.3,M,-30.5,M,,*4E
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,42,297,15,16,55,195,29,26,84,096,26,28,38,044,19*7C
+$GPGSV,3,2,10,29,10,062,16,31,56,009,23,32,32,111,35,04,15,314,00*78
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154613,A,2815.3907,N,08136.2738,W,000.0,000.0,201224,005.8,W*79
+$GPGGA,154613,2815.3907,N,08136.2738,W,1,07,1.4,35.3,M,-30.5,M,,*49
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,2.5,1.4,2.0*30
+$GPGSV,3,1,10,03,42,297,14,16,55,195,29,26,84,096,26,28,38,044,18*7C
+$GPGSV,3,2,10,29,10,062,16,31,56,009,24,32,32,111,35,04,15,314,00*7F
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154614,A,2815.3908,N,08136.2738,W,000.0,000.0,201224,005.8,W*71
+$GPGGA,154614,2815.3908,N,08136.2738,W,1,07,1.4,35.3,M,-30.5,M,,*41
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,2.4,1.4,2.0*31
+$GPGSV,3,1,10,03,42,297,15,16,55,195,29,26,84,096,26,28,38,044,18*7D
+$GPGSV,3,2,10,29,10,062,16,31,56,009,24,32,32,111,35,04,15,314,00*7F
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154615,A,2815.3908,N,08136.2738,W,000.0,000.0,201224,005.8,W*70
+$GPGGA,154615,2815.3908,N,08136.2738,W,1,07,1.4,35.3,M,-30.5,M,,*40
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,2.4,1.4,2.0*31
+$GPGSV,3,1,10,03,42,297,14,16,55,195,29,26,84,096,26,28,38,044,18*7C
+$GPGSV,3,2,10,29,10,062,16,31,56,009,25,32,32,111,35,04,15,314,00*7E
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154616,A,2815.3909,N,08136.2738,W,000.0,000.0,201224,005.8,W*72
+$GPGGA,154616,2815.3909,N,08136.2738,W,1,07,1.4,35.3,M,-30.5,M,,*42
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,2.5,1.4,2.0*30
+$GPGSV,3,1,10,03,42,297,14,16,55,195,29,26,84,096,26,28,38,044,18*7C
+$GPGSV,3,2,10,29,10,062,17,31,56,009,25,32,32,111,35,04,15,314,00*7F
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154617,A,2815.3909,N,08136.2738,W,000.0,000.0,201224,005.8,W*73
+$GPGGA,154617,2815.3909,N,08136.2738,W,1,07,1.2,35.3,M,-30.5,M,,*45
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,42,296,15,16,55,195,30,26,84,096,26,28,38,044,18*74
+$GPGSV,3,2,10,29,10,062,18,31,56,009,26,32,32,111,35,04,15,314,00*73
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154618,A,2815.3910,N,08136.2738,W,000.0,000.0,201224,005.8,W*74
+$GPGGA,154618,2815.3910,N,08136.2738,W,1,07,1.2,35.3,M,-30.5,M,,*42
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,42,296,14,16,55,195,30,26,84,096,26,28,38,044,18*75
+$GPGSV,3,2,10,29,10,062,19,31,56,009,26,32,32,111,35,04,15,314,00*72
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154619,A,2815.3910,N,08136.2738,W,000.0,000.0,201224,005.8,W*75
+$GPGGA,154619,2815.3910,N,08136.2738,W,1,07,1.2,35.3,M,-30.5,M,,*43
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,42,296,13,16,55,195,30,26,84,096,26,28,38,044,18*72
+$GPGSV,3,2,10,29,10,062,20,31,56,009,26,32,32,111,35,04,15,314,00*78
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+
+
+F
+Motor Running (Stop with '@') ...
+<00> Current [AD# 736]: 127.3 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1707]: 37.7 C
+<01> Current [AD# 744]: 128.6 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<02> Current [AD# 736]: 127.3 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<03> Current [AD# 735]: 127.1 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1708]: 37.5 C
+<04> Current [AD# 738]: 127.6 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1706]: 37.9 C
+
+** Motor stopped by user! **
+~
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+T
+> Current launcher mode: 0 [default=0]
+> Enter launcher mode [0] GPS auto stream or [1] normal menu: 1
+
+> Current menu timeout: 20 s [default=30]
+> [exit=000] Enter launcher timeout (3-digits) in seconds [001-600]: 015
+> Launcher mode: 1
+> Setting saved! mode: 1
+
+> Launcher timeout: 15 s
+> Setting saved! timeout: 15
+
+
+> Q
+> Leaving Auto launcher configuration menu
+
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+
+> NÁ,29,10,061,21,31,56,009,29,32,32,111,38,04,16,314,00*7B
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154656,A,2815.3913,N,08136.2730,W,000.0,000.0,201224,005.8,W*75
+$GPGGA,154656,2815.3913,N,08136.2730,W,1,07,1.2,35.4,M,-30.5,M,,*44
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,42,296,17,16,55,195,30,26,84,093,21,28,37,044,24*74
+$GPGSV,3,2,10,29,10,061,21,31,56,009,29,32,32,111,38,04,16,314,00*7B
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+$GPRMC,154657,A,2815.3913,N,08136.2730,W,000.0,000.0,201224,005.8,W*74
+$GPGGA,154657,2815.3913,N,08136.2730,W,1,07,1.2,35.4,M,-30.5,M,,*45
+$GPGSA,A,3,03,16,26,28,29,31,32,,,,,,1.5,1.2,0.9*3E
+$GPGSV,3,1,10,03,42,296,18,16,55,195,30,26,84,093,22,28,37,044,25*79
+$GPGSV,3,2,10,29,10,061,20,31,56,009,29,32,32,111,38,04,16,314,00*7A
+$GPGSV,3,3,10,10,02,161,00,27,06,173,00*7B
+O
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set Tx to GPS         N                |
+| Set Tx to STM32       O                |
+|========================================|
+
+123456789
+** Unrecognized command!!**
+0RF
+Motor Running (Stop with '@') ...
+<00> Current [AD# 717]: 124.2 mA | Voltage [AD# 1793]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<01> Current [AD# 737]: 127.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1705]: 38.1 C
+<02> Current [AD# 732]: 126.6 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<03> Current [AD# 737]: 127.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<04> Current [AD# 744]: 128.6 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<05> Current [AD# 737]: 127.4 mA | Voltage [AD# 1792]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+<06> Current [AD# 735]: 127.1 mA | Voltage [AD# 1791]: 15.2 V | Temperature [AD# 1704]: 38.2 C
+
+** Motor stopped by user! **
+~
+=========================================
+| AOML Autolauncher configuration menu  |
+=========================================
+|    Model #ALV3.0      S/N ALX35       |
+|=======================================|
+|               COMMANDS                |
+|=======================================|
+| <Z> Help                              |
+| <M> This Menu                         |
+| <Q> QUIT to main menu                 |
+| <A> Set AL tubes, type & S/N          |
+| <T> Set launcher mode                 |
+| <Y> Set verbose mode                  |
+| <U> Read launcher parameters          |
+|---------------------------------------|
+| <S> Extend all pins                   |
+| <D> Retract all pins                  |
+| <F> Grease pins mode                  |
+|---------------------------------------|
+| <R> Read motor configuration          |
+| <H> Read motor statistics             |
+| <J> Set motor runtime                 |
+| <K> Set motor ADC sampling period     |
+| <I> Set motor ADC display on/off      |
+| <L> Set motor wiring mode             |
+| <W> Set motor PWM frequency           |
+| <E> Reset motor statistics            |
+| <G> Clear memory range (caution!)     |
+|=======================================|
+
+T
+> Current launcher mode: 1 [default=0]
+> Enter launcher mode [0] GPS auto stream or [1] normal menu: 0
+
+> Current menu timeout: 15 s [default=30]
+> [exit=000] Enter launcher timeout (3-digits) in seconds [001-600]: 000
+
+** Exit **
+> Launcher mode: 0
+> Setting saved! mode: 0
+
+
+> Q
+> Leaving Auto launcher configuration menu
+
+
+|========================================|
+|   AOML Autolauncher board version 3.0  |
+|        Firmware version 2024.12.20     |
+|========================================|
+|     Model #ALV3.0      S/N ALX35       |
+|========================================|
+|               COMMANDS                 |
+|========================================|
+| Connect  Cal Sim BT   0                |
+| Connect  XBT 1-8      1,2,3,4,5,6,7,8  |
+| Extend   Pin 1-8      U,V,W,X,Y,Z,S,T  |
+| Retract  Pin 1-8      A,B,C,D,E,F,H,I  |
+| Unground XBT          G                |
+| Calibrate ON          K                |
+| Calibration resistor  L                |
+| Reset all relays      R                |
+| Print serial number   s                |
+| This menu             M                |
+| Read voltage & temp   P                |
+| Set
